@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Typography, Grid, Button } from "@material-ui/core";
 import ZoomImage from "../../shared/components/ZoomImage";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import { NavLink } from "react-router-dom";
 
 const content1 = (
@@ -1064,13 +1064,16 @@ const content5 = (
         disabled if you purchase in game currency from the shop.
       </li>
     </Typography>
-    <Typography variant="h6" paragraph>
+    {/* <Typography variant="h6" paragraph>
       How to download DLS video tutorial
-      <ReactPlayer
-        url="https://www.youtube.com/watch?v=0SusqAwmgdc"
-        controls={true}
-      />
-    </Typography>
+      <Grid item>
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=0SusqAwmgdc"
+          controls={true}
+        />
+      </Grid>
+    </Typography> */}
+
     <Typography variant="h6" style={{ textAlign: "center" }} paragraph>
       <NavLink
         to="http://www.mediafire.com/file/kdkkk7ofb1xmbkk/Dream_League_Soccer_2022_by_RM_Gaming_.7z/file"
@@ -1804,10 +1807,12 @@ const content8 = (
       answer this question in detail. And I'll help you grasp the concept of
       Android crypto mining.
     </Typography>
-    <Typography variant="h6" paragraph>
+    {/* <Typography variant="h6" paragraph>
       Watch this video on how crypto mining works on Android phones and PC.
-      <ReactPlayer url="https://youtu.be/AZJ6QFsydR8" controls={true} />
-    </Typography>
+      <Grid item>
+        <ReactPlayer url="https://youtu.be/AZJ6QFsydR8" controls={true} />
+      </Grid>
+    </Typography> */}
 
     <Typography paragraph>
       Let me reveal that I was able to mine 0.000005 Monero with 2 hours of
@@ -2265,14 +2270,16 @@ const content9 = (
       This tutorial is provided for educational purposes and alerts ISPs about
       potential vulnerabilities on their network. Usage is at your own risk.
     </Typography>
-    <Typography variant="h6" paragraph>
+    {/* <Typography variant="h6" paragraph>
       How to Get Free internet on MTN and Airtel Uganda 2021 Trick full video
       tutorial
-      <ReactPlayer
-        url="https://www.youtube.com/watch?v=axkEO67nnpA"
-        controls={true}
-      />
-    </Typography>
+      <Grid item>
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=axkEO67nnpA"
+          controls={true}
+        />
+      </Grid>
+    </Typography> */}
   </Fragment>
 );
 
@@ -2301,12 +2308,13 @@ const content10 = (
         to="https://play.google.com/store/apps/details?id=com.euginetechug.epmoviedownloader"
         target="_blank"
       >
-        <span style={{marginLeft: "7px"}}>EP Movie Downloader</span>
+        <span style={{ marginLeft: "7px" }}>EP Movie Downloader</span>
       </NavLink>
     </Typography>
     The app is freely available on the Google Play.
     <Typography paragraph>
-      You Can Search for it directly on the Play Store or Click on the Download button Below
+      You Can Search for it directly on the Play Store or Click on the Download
+      button Below
     </Typography>
     <Typography variant="h6" style={{ textAlign: "center" }} paragraph>
       <NavLink
@@ -2523,11 +2531,15 @@ const content10 = (
       With that, I hope you have understood how to use the EP Movie Downloader
       app to Download Ugandan Translated movies free of charge.
     </Typography>
-    <Typography variant="h6" paragraph>
+    {/* <Typography variant="h6" paragraph>
       How to download download and use Ep Movie Downloader App full video
       tutorial
-      <ReactPlayer url="https://youtu.be/dPeuPMTmXkg" controls={true} />
-    </Typography>
+      <Grid
+        item
+      >
+        <ReactPlayer url="https://youtu.be/dPeuPMTmXkg" controls={true} />
+      </Grid>
+    </Typography> */}
   </Fragment>
 );
 
