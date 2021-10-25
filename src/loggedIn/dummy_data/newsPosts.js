@@ -1001,74 +1001,70 @@ const content8 = (
     <Typography variant="h6" paragraph>
       Man Utd 0-5 Liverpool: Mohamed Salah hits hat-trick and Paul Pogba sees
       red in shambolic Man Utd show to pile pressure on Ole Gunnar Solskjaer
-      
     </Typography>
     <Typography paragraph>
-      Free match highlights and report as dazzling Liverpool inflict calamitous
-      defeat on 10-man Manchester United; Mohamed Salah scores hat-trick to add
-      to goals from Naby Keita and Diogo Jota; Paul Pogba sent off just 15
-      minutes after coming on; pressure builds on Ole Gunnar Solskjaer
+      Manchester United suffered their heaviest ever Old Trafford defeat against
+      Liverpool as Jurgen Klopp’s side romped to a stunning 5-0 win on Sunday.
+    </Typography>
+    <Typography paragraph>
+      Mohamed Salah scored a hat-trick, while Naby Keita and Diogo Jota also
+      netted for the rampant visitors.
+    </Typography>
+    <Typography paragraph>
+      After one of the darkest days in United’s history that happened today,
+      here are six of their other nightmare Premier League defeats:
     </Typography>
     <Typography variant="h6" paragraph>
-      Manchester United suffered one of their most humiliating defeats in recent
-      memory as rivals Liverpool piled pressure on Ole Gunnar Solskjaer in a 5-0
-      thrashing which saw Mohamed Salah score a hat-trick and Paul Pogba see
-      red.
+      Newcastle 5 Manchester United 0, 1996
     </Typography>
     <Typography paragraph>
-      He said they have capacity to produce 30 tonnes of medical marijuana
-      annually but that Covid-19 has been affecting their business.
+      Philippe Albert’s stunning lob over Peter Schmeichel capped a memorable
+      victory as Kevin Keegan’s men, who also scored through Darren Peacock,
+      David Ginola, Les Ferdinand and Alan Shearer, thrashed their title rivals.
+    </Typography>
+    <Typography variant="h6" paragraph>
+      Southampton 6 Manchester United 3, 1996
     </Typography>
     <Typography paragraph>
-      Mr Cadet said they want to start selling some of their finest medical
-      marijuana products in Ugandan markets with the main goal of making the
-      country a global tourism hub for medical cannabis.
+      Just a week after losing 5-0 to Newcastle, United crashed again, with Egil
+      Ostenstad’s hat-trick, an Eyal Berkovic brace and Matt Le Tissier’s gem
+      capitalising on Roy Keane’s red card.
+    </Typography>
+    <Typography variant="h6" paragraph>
+      Chelsea 5 Manchester United 0, 1999
     </Typography>
     <Typography paragraph>
-      “We have developed 10 products of medical cannabis that we have submitted
-      to National Drug Authority for approval so that Ugandan patients can
-      benefit other than exporting to other countries,” he told this newspaper,
-      adding that they have not yet received a response from the authority.
+      Gus Poyet scored after just 27 seconds, triggering a Blue day for United
+      in west London, with Chris Sutton, Jody Morris, another Poyet strike and a
+      Henning Berg own goal completing the visitors’ humiliation after Nicky
+      Butt’s dismissal.
+    </Typography>
+    <Typography variant="h6" paragraph>
+      Manchester United 1 Liverpool 4, 2009
     </Typography>
     <Typography paragraph>
-      “We want to thank the President Museveni for the support and providing a
-      conducive environment that enable individual innovations in medical
-      cannabis. Medical cannabis industry is good for the country’s economy and
-      will make Uganda to be one of the best medical cannabis producers in the
-      world,” he said.
+      Fernando Torres ran riot, with Steven Gerrard, Fabio Aurelio and Andrea
+      Dossena also on target and Nemanja Vidic dismissed for United, who
+      survived the onslaught well enough to beat the Reds in the title race.
+    </Typography>
+    <Typography variant="h6" paragraph>
+      Manchester United 1 Manchester City 6, 2011
     </Typography>
     <Typography paragraph>
-      But Dr David Nahamya, the secretary at NDA, told this newspaper that he
-      would check whether the company has actually submitted the said products
-      for approval.
+      This was the first time United had conceded six goals at Old Trafford
+      since 1930, their heaviest home defeat for 56 years triggered by doubles
+      for Mario Balotelli and Edin Dzeko, as well as strike each by Sergio
+      Aguero and David Silva.
+    </Typography>
+    <Typography variant="h6" paragraph>
+      Manchester United 1 Tottenham 6, 2020
     </Typography>
     <Typography paragraph>
-      “We have capacity to assess and approve the [medical cannabis] products if
-      they are drugs,” he said. He didn’t get back by press time.
-    </Typography>
-    <Typography paragraph>
-      The company had in March 2020 exported 600 kilogrammes of medical
-      marijuana to Israel and in January 2021, it also exported a total of 1.7
-      tonnes to the same country.
-    </Typography>
-    <Typography paragraph>
-      The Narcotic Drugs and Psychotropic Substances Act, 2015, allows
-      cultivation, production and exportation of medical marijuana and mandates
-      the Health minister to issue written consent for medical marijuana.
-    </Typography>
-    <Typography paragraph>
-      The government has only approved one company to do MC business despite
-      more than 20 companies that expressed interest in the lucrative business.
-    </Typography>
-    <Typography paragraph>
-      Mr Emmanuel Ainebyoona, the Health ministry spokesperson, said discussions
-      are ongoing on whether to licence more companies to grow and export
-      medical marijuana.
-    </Typography>
-    <Typography paragraph>
-      Mr Emmanuel Ainebyoona, the Health ministry spokesperson, said discussions
-      are ongoing on whether to licence more companies to grow and export
-      medical marijuana.
+      United went in front courtesy of a Bruno Fernandes penalty inside the
+      opening two minutes, but Anthony Martial’s dismissal was the signal for
+      Son Heung-min and Harry Kane to score twice, while Tanguy Ndombele and
+      Serge Aurier also netted as Jose Mourinho enjoyed a memorable return to
+      his former club.
     </Typography>
   </Fragment>
 );
@@ -1471,7 +1467,8 @@ const posts = [
     content: content7,
   },
   {
-    title: "Man Utd’s heaviest home PL defeats since 1893",
+    title:
+      "Manchester United’s worst and heaviest Premier League defeats since 1893",
     id: 8,
     date: "Updated on 21/10/2021, 01:18am",
     src: "https://e0.365dm.com/21/10/1600x900/skysports-man-utd-biggest-defeats_5558388.jpg?20211024205751",
