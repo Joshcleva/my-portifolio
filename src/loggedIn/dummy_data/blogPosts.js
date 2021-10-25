@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Typography, Grid, Button } from "@material-ui/core";
 import ZoomImage from "../../shared/components/ZoomImage";
-// import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 import { NavLink } from "react-router-dom";
 
 const content1 = (
@@ -1064,30 +1064,28 @@ const content5 = (
         disabled if you purchase in game currency from the shop.
       </li>
     </Typography>
-    {/* <Typography variant="h6" paragraph>
+    <Typography variant="h6" paragraph>
       How to download DLS video tutorial
-      <Grid item>
+      <Grid item >
         <ReactPlayer
           url="https://www.youtube.com/watch?v=0SusqAwmgdc"
           controls={true}
+          fluid={true}
+          width={220}
+          height={120}
         />
       </Grid>
-    </Typography> */}
-
+    </Typography>
     <Typography variant="h6" style={{ textAlign: "center" }} paragraph>
-      <NavLink
-        to="http://www.mediafire.com/file/kdkkk7ofb1xmbkk/Dream_League_Soccer_2022_by_RM_Gaming_.7z/file"
+      <Button
+        variant="contained"
+        color="secondary"
+        styl={{ width: "90%", marginBottom: "10px", textDecoration: "none" }}
+        href="http://www.mediafire.com/file/kdkkk7ofb1xmbkk/Dream_League_Soccer_2022_by_RM_Gaming_.7z/file"
         target="blank"
-        style={{ textDecoration: "none" }}
       >
-        <Button
-          variant="contained"
-          color="secondary"
-          styl={{ width: "90%", marginBottom: "10px" }}
-        >
-          Download DLS 2022 Apk Obb+Data
-        </Button>
-      </NavLink>
+        Download DLS 2022 Apk Obb+Data
+      </Button>
     </Typography>
     <Typography variant="h6" paragraph>
       How To Install Dream League Soccer 2022:-
@@ -1807,13 +1805,15 @@ const content8 = (
       answer this question in detail. And I'll help you grasp the concept of
       Android crypto mining.
     </Typography>
-    {/* <Typography variant="h6" paragraph>
+    <Typography variant="h6" paragraph>
       Watch this video on how crypto mining works on Android phones and PC.
       <Grid item>
-        <ReactPlayer url="https://youtu.be/AZJ6QFsydR8" controls={true} />
+        <ReactPlayer url="https://youtu.be/AZJ6QFsydR8" controls={true}
+        fluid={true}
+          width={220}
+          height={120}/>
       </Grid>
-    </Typography> */}
-
+    </Typography>
     <Typography paragraph>
       Let me reveal that I was able to mine 0.000005 Monero with 2 hours of
       Android mining. This will help you understand if you should read this post
@@ -2197,19 +2197,15 @@ const content9 = (
       />
     </Grid>
     <Typography variant="h6" style={{ textAlign: "center" }} paragraph>
-      <NavLink
-        to="https://play.google.com/store/apps/details?id=com.aed.droidvpn&hl=en&gl=US"
+      <Button
+        variant="contained"
+        color="secondary"
+        styl={{ width: "90%", marginBottom: "10px", textDecoration: "none" }}
+        href="https://play.google.com/store/apps/details?id=com.aed.droidvpn&hl=en&gl=US"
         target="blank"
-        style={{ textDecoration: "none" }}
       >
-        <Button
-          variant="contained"
-          color="secondary"
-          styl={{ width: "90%", marginBottom: "10px" }}
-        >
-          Download Droid Vpn
-        </Button>
-      </NavLink>
+        Download Droid Vpn
+      </Button>
     </Typography>
     <Typography paragraph>2. Install the app and click to open it</Typography>
     <Typography paragraph>
@@ -2270,16 +2266,19 @@ const content9 = (
       This tutorial is provided for educational purposes and alerts ISPs about
       potential vulnerabilities on their network. Usage is at your own risk.
     </Typography>
-    {/* <Typography variant="h6" paragraph>
+    <Typography variant="h6" paragraph>
       How to Get Free internet on MTN and Airtel Uganda 2021 Trick full video
       tutorial
-      <Grid item>
+      <Grid item style={{ padding: "50px" }}>
         <ReactPlayer
           url="https://www.youtube.com/watch?v=axkEO67nnpA"
           controls={true}
+          fluid={true}
+          width={220}
+          height={120}
         />
       </Grid>
-    </Typography> */}
+    </Typography>
   </Fragment>
 );
 
@@ -2302,14 +2301,13 @@ const content10 = (
     <Typography variant="h6" paragraph>
       What's Required?
     </Typography>
-    <Typography paragraph>
+    <Typography
+      paragraph
+      href="https://play.google.com/store/apps/details?id=com.euginetechug.epmoviedownloader"
+      target="_blank"
+    >
       We shall use the
-      <NavLink
-        to="https://play.google.com/store/apps/details?id=com.euginetechug.epmoviedownloader"
-        target="_blank"
-      >
-        <span style={{ marginLeft: "7px" }}>EP Movie Downloader</span>
-      </NavLink>
+      <span style={{ marginLeft: "7px" }}>EP Movie Downloader</span>
     </Typography>
     The app is freely available on the Google Play.
     <Typography paragraph>
@@ -2317,19 +2315,15 @@ const content10 = (
       button Below
     </Typography>
     <Typography variant="h6" style={{ textAlign: "center" }} paragraph>
-      <NavLink
-        to="https://play.google.com/store/apps/details?id=com.euginetechug.epmoviedownloader"
+      <Button
+        variant="contained"
+        color="secondary"
+        style={{ width: "90%", marginBottom: "10px", textDecoration: "none" }}
+        href="https://play.google.com/store/apps/details?id=com.euginetechug.epmoviedownloader"
         target="_blank"
-        style={{ textDecoration: "none" }}
       >
-        <Button
-          variant="contained"
-          color="secondary"
-          styl={{ width: "90%", marginBottom: "10px" }}
-        >
-          Download Ep Movie Downloader
-        </Button>
-      </NavLink>
+        Download Ep Movie Downloader
+      </Button>
     </Typography>
     <Typography variant="h6" paragraph>
       Features of Ep Movie Downloader App
@@ -2531,15 +2525,16 @@ const content10 = (
       With that, I hope you have understood how to use the EP Movie Downloader
       app to Download Ugandan Translated movies free of charge.
     </Typography>
-    {/* <Typography variant="h6" paragraph>
+    <Typography variant="h6" paragraph>
       How to download download and use Ep Movie Downloader App full video
       tutorial
-      <Grid
-        item
-      >
-        <ReactPlayer url="https://youtu.be/dPeuPMTmXkg" controls={true} />
+      <Grid item style={{ padding: "50px" }}>
+        <ReactPlayer url="https://youtu.be/dPeuPMTmXkg" controls={true} 
+        fluid={true}
+          width={220}
+          height={120}/>
       </Grid>
-    </Typography> */}
+    </Typography>
   </Fragment>
 );
 

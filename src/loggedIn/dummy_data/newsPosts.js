@@ -998,22 +998,22 @@ const content7 = (
 
 const content8 = (
   <Fragment>
-    <Typography paragraph>
-      Uganda last week exported 400 kilogrammes of medical marijuana to Germany,
-      the fourth delivery to foreign countries since the government permitted
-      the business.
+    <Typography variant="h6" paragraph>
+      Man Utd 0-5 Liverpool: Mohamed Salah hits hat-trick and Paul Pogba sees
+      red in shambolic Man Utd show to pile pressure on Ole Gunnar Solskjaer
+      
     </Typography>
     <Typography paragraph>
-      A kilogramme of medical cannabis (MC), a product claimed to be effective
-      in treating a wide range of deadly diseases, including cancer, costs
-      around 4,300 euros (Shs18 million). This is according to information from
-      www.gmp-compliance.org a website run by a German-based training
-      institution on good manufacturing practices for health products makers.
+      Free match highlights and report as dazzling Liverpool inflict calamitous
+      defeat on 10-man Manchester United; Mohamed Salah scores hat-trick to add
+      to goals from Naby Keita and Diogo Jota; Paul Pogba sent off just 15
+      minutes after coming on; pressure builds on Ole Gunnar Solskjaer
     </Typography>
-    <Typography paragraph>
-      Mr Benjamin Cadet, one of the directors at Industrial Hemp Uganda Ltd, the
-      company licenced by the government to grow and process medical cannabis,
-      said they exported the products last Saturday, October 16.
+    <Typography variant="h6" paragraph>
+      Manchester United suffered one of their most humiliating defeats in recent
+      memory as rivals Liverpool piled pressure on Ole Gunnar Solskjaer in a 5-0
+      thrashing which saw Mohamed Salah score a hat-trick and Paul Pogba see
+      red.
     </Typography>
     <Typography paragraph>
       He said they have capacity to produce 30 tonnes of medical marijuana
@@ -1471,12 +1471,12 @@ const posts = [
     content: content7,
   },
   {
-    title: "Uganda exports 400kg of marijuana to Germany",
+    title: "Man Utd’s heaviest home PL defeats since 1893",
     id: 8,
     date: "Updated on 21/10/2021, 01:18am",
-    src: "https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320984/a-man-holding-a-marijuana-leaf.jpg",
+    src: "https://e0.365dm.com/21/10/1600x900/skysports-man-utd-biggest-defeats_5558388.jpg?20211024205751",
     snippet:
-      "The exporters say they have capacity to produce 30 tonnes of medical marijuana annually but that Covid-19 has affected their business",
+      "Man Utd 0-5 Liverpool: Mohamed Salah hits hat-trick and Paul Pogba sees red",
     content: content8,
   },
   {
