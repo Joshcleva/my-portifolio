@@ -12,10 +12,10 @@ const LoggedOutComponent = lazy(() => import("./loggedIn/components/Main"));
 
 function App() {
 
-useEffect(() => {
-  ReactGa.initialize('G-PN1Y30DRXK')
+  useEffect(() => {
+  ReactGa.initialize("UA-211171356-1");
 
-ReactGa.pageview(window.location.pathname + window.location.search)
+  ReactGa.pageview(window.location.pathname + window.location.search);
 
 }, [])
 

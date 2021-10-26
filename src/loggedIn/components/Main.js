@@ -26,7 +26,7 @@ const styles = (theme) => ({
 function Main(props) {
 
 useEffect(() => {
-  ReactGa.initialize('G-PN1Y30DRXK')
+  ReactGa.initialize("UA-211171356-1");
 
 ReactGa.pageview(window.location.pathname + window.location.search)
 
