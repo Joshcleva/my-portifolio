@@ -1470,7 +1470,7 @@ const posts = [
     title:
       "Manchester United’s worst and heaviest Premier League defeats since 1893",
     id: 8,
-    date: "Updated on 21/10/2021, 01:18am",
+    date: "Updated on 25/10/2021, 06:18am",
     src: "https://e0.365dm.com/21/10/1600x900/skysports-man-utd-biggest-defeats_5558388.jpg?20211024205751",
     snippet:
       "Man Utd 0-5 Liverpool: Mohamed Salah hits hat-trick and Paul Pogba sees red",

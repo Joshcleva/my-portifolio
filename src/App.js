@@ -6,7 +6,6 @@ import GlobalStyles from "./GlobalStyles";
 import Pace from "./shared/components/Pace";
 import ReactGa from 'react-ga';
 
-// const LoggedInComponent = lazy(() => import("./logged_in/components/Main"));
 
 const LoggedOutComponent = lazy(() => import("./loggedIn/components/Main"));
 
@@ -15,7 +14,7 @@ function App() {
   useEffect(() => {
   ReactGa.initialize("UA-211171356-1");
 
-  ReactGa.pageview(window.location.pathname + window.location.search);
+  ReactGa.pageview('/App');
 
 }, [])
 
@@ -27,9 +26,6 @@ function App() {
         <Pace color={theme.palette.primary.light} />
         <Suspense fallback={<Fragment />}>
           <Switch>
-            {/* <Route path="/c">
-              <LoggedInComponent />
-            </Route> */}
             <Route>
               <LoggedOutComponent />
             </Route>
