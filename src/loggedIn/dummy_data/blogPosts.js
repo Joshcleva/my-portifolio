@@ -2310,6 +2310,8 @@ const content10 = (
       paragraph
       href="https://play.google.com/store/apps/details?id=com.euginetechug.epmoviedownloader"
       target="_blank"
+        onClick={(e) => EventsTracker("playstore visit", Typography)}
+
     >
       We shall use the
       <span style={{ marginLeft: "7px" }}>EP Movie Downloader</span>
@@ -2323,7 +2325,7 @@ const content10 = (
       <Button
         variant="contained"
         color="secondary"
-        style={{ width: "90%", marginBottom: "10px", textDecoration: "none" }}
+        style={{ width: "80%", marginBottom: "10px", textDecoration: "none" }}
         href="https://play.google.com/store/apps/details?id=com.euginetechug.epmoviedownloader"
         target="_blank"
         onClick={(e) => EventsTracker("playstore visit", Button)}

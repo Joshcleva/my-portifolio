@@ -1,6 +1,6 @@
-import React, { memo } from "react";
+import React, { memo, useEffect } from "react";
 import PropTypes from "prop-types";
-import { Switch } from "react-router-dom";
+import { Switch, withRouter } from "react-router-dom";
 import PropsRoute from "../../shared/components/PropsRoute";
 import Home from "./home/Home";
 import FeatureSection from "./home/FeatureSection";
@@ -16,8 +16,17 @@ import PrivacyPolicy from "./PrivacyPolicy";
 import Construction from "./Construction";
 import TermsOfService from "./TermsOfService";
 import useLocationBlocker from "../../shared/functions/useLocationBlocker";
+import ReactGa from "react-ga";
 
 function Routing(props) {
+
+useEffect(() => {
+    ReactGa.initialize("UA-211171356-1");
+
+    ReactGa.pageview(window.location.pathname + window.location.search)
+
+  }, []);
+
   const {
     blogPosts,
     newsPosts,
@@ -142,4 +151,4 @@ Routing.propTypes = {
   selectConstruction: PropTypes.func.isRequired,
 };
 
-export default memo(Routing);
+export default withRouter(memo(Routing));

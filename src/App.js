@@ -1,6 +1,6 @@
 import React, { Fragment, Suspense, lazy, useEffect } from "react";
 import { MuiThemeProvider, CssBaseline } from "@material-ui/core";
-import { BrowserRouter, Route, Switch, withRouter } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import theme from "./theme";
 import GlobalStyles from "./GlobalStyles";
 import Pace from "./shared/components/Pace";
@@ -40,4 +40,4 @@ function App() {
   );
 }
 
-export default withRouter(App);
+export default (App);

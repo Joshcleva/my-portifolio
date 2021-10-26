@@ -12,7 +12,6 @@ import dummyNewsPosts from "../dummy_data/newsPosts";
 import Routing from "./Routing";
 import smoothScrollTop from "../../shared/functions/smoothScrollTop";
 import ScrollToTop from "../components/scrollToTop/ScrollToTop";
-import ReactGa from 'react-ga';
 
 AOS.init({ once: true });
 
@@ -24,13 +23,6 @@ const styles = (theme) => ({
 });
 
 function Main(props) {
-
-useEffect(() => {
-  ReactGa.initialize("UA-211171356-1");
-
-ReactGa.pageview(window.location.pathname + window.location.search)
-
-}, [])
 
   const { classes } = props;
   const [selectedTab, setSelectedTab] = useState(null);
