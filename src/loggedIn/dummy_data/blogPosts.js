@@ -3,6 +3,9 @@ import { Typography, Grid, Button } from "@material-ui/core";
 import ZoomImage from "../../shared/components/ZoomImage";
 import ReactPlayer from "react-player";
 import { NavLink } from "react-router-dom";
+import GaEventsTracker from '../components/GaEventsTracker';
+
+const EventsTracker = GaEventsTracker("External Links");
 
 const content1 = (
   <Fragment>
@@ -1083,6 +1086,7 @@ const content5 = (
         styl={{ width: "90%", marginBottom: "10px", textDecoration: "none" }}
         href="http://www.mediafire.com/file/kdkkk7ofb1xmbkk/Dream_League_Soccer_2022_by_RM_Gaming_.7z/file"
         target="blank"
+        onClick={(e) => EventsTracker("Mediafire visit", Button)}
       >
         Download DLS 2022 Apk Obb+Data
       </Button>
@@ -2203,6 +2207,7 @@ const content9 = (
         styl={{ width: "90%", marginBottom: "10px", textDecoration: "none" }}
         href="https://play.google.com/store/apps/details?id=com.aed.droidvpn&hl=en&gl=US"
         target="blank"
+        onClick={(e) => EventsTracker("playstore visit", Button)}
       >
         Download Droid Vpn
       </Button>
@@ -2321,6 +2326,7 @@ const content10 = (
         style={{ width: "90%", marginBottom: "10px", textDecoration: "none" }}
         href="https://play.google.com/store/apps/details?id=com.euginetechug.epmoviedownloader"
         target="_blank"
+        onClick={(e) => EventsTracker("playstore visit", Button)}
       >
         Download Ep Movie Downloader
       </Button>
@@ -2529,10 +2535,13 @@ const content10 = (
       How to download download and use Ep Movie Downloader App full video
       tutorial
       <Grid item style={{ padding: "50px" }}>
-        <ReactPlayer url="https://youtu.be/dPeuPMTmXkg" controls={true} 
-        fluid={true}
+        <ReactPlayer
+          url="https://youtu.be/dPeuPMTmXkg"
+          controls={true}
+          fluid={true}
           width={220}
-          height={120}/>
+          height={120}
+        />
       </Grid>
     </Typography>
   </Fragment>
