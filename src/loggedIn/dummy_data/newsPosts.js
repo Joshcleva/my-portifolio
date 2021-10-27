@@ -1,91 +1,166 @@
 import React, { Fragment } from "react";
 import { Typography, Grid } from "@material-ui/core";
 import ZoomImage from "../../shared/components/ZoomImage";
+import ReactPlayer from "react-player";
 
 const content1 = (
   <Fragment>
     <Typography variant="h6" paragraph>
-      Mark Zuckerberg wants to be known for building the metaverse
+      How the early pioneers of the smartphone almost made it big.
+    </Typography>
+    <Grid item style={{ textAlign: "center" }}>
+      <ReactPlayer
+        url="https://youtu.be/nJBxiZoDSYg"
+        controls={true}
+        fluid={true}
+        width={220}
+        height={120}
+      />
+    </Grid>
+    <Typography paragraph>
+      A decade before Steve Jobs introduced the iPhone, a tiny team of renegades
+      imagined and tried to build the modern smartphone. Nearly forgotten by
+      history, a little startup called Handspring tried to make the future
+      before it was ready. In Springboard: the secret history of the first real
+      smartphone, The Verge’s Dieter Bohn talks to the visionaries at Handspring
+      and dives into their early successes and eventual failures.
     </Typography>
     <Typography paragraph>
-      Facebook is planning to change its company name next week to reflect its
-      focus on building the metaverse, according to a source with direct
-      knowledge of the matter.
+      It’s a half-hour-long documentary featuring the key players at Palm and
+      Handspring: Donna Dubinsky, Jeff Hawkins, Ed Colligan, and more. It’s one
+      of our most ambitious video projects to date, and we can’t wait to show it
+      to you.
     </Typography>
     <Typography paragraph>
-      The coming name change, which CEO Mark Zuckerberg plans to talk about at
-      the company’s annual Connect conference on October 28th, but could unveil
-      sooner, is meant to signal the tech giant’s ambition to be known for more
-      than social media and all the ills that entail. The rebrand would likely
-      position the blue Facebook app as one of many products under a parent
-      company overseeing groups like Instagram, WhatsApp, Oculus, and more. A
-      spokesperson for Facebook declined to comment for this story.
+      Handspring may no longer be a household name, but it was briefly one of
+      the fastest growing businesses in American history, selling Visor personal
+      digital assistants. But the company had bigger aspirations: it saw a
+      mobile future and took the first steps toward what would become the modern
+      smartphone — even as it faced skepticism from the entire industry.
+    </Typography>
+    <Typography paragraph>
+      The dream of the Handspring Treo turned out to be too far ahead of its
+      time — before either the technology inside smartphones or the industry
+      that sold them was ready for it. And a number of bad internal decisions
+      and outside disasters would stall Handspring long enough that Apple would
+      go on to do what Handspring couldn’t.
+    </Typography>
+    <Typography paragraph>
+      Springboard is also a look at an earlier time in tech — when the dot com
+      bubble was bursting, but big tech hadn’t coalesced into five or six
+      titanic monoliths. It was a time when many futures seemed possible, even
+      one where a tiny startup could win the coming smartphone wars.
+    </Typography>
+    <Typography paragraph>
+      Springboard is now streaming worldwide. You can watch it on The Verge’s
+      new app on Android TV, Amazon Fire TV, Roku, or Apple TV.
+    </Typography>
+    <Typography paragraph>
+      Visit your preferred streaming device’s app store and search for “The
+      Verge,” or follow the instructions for each of the streaming devices you
+      can use:
     </Typography>
     <Typography variant="h6" paragraph>
-      FACEBOOK INTENDS TO TRANSITION TO “BEING A METAVERSE COMPANY”
+      AMAZON FIRE
     </Typography>
     <Typography paragraph>
-      Facebook already has more than 10,000 employees building consumer hardware
-      like AR glasses that Zuckerberg believes will eventually be as ubiquitous
-      as smartphones. In July, he told The Verge that, over the next several
-      years, “we will effectively transition from people seeing us as primarily
-      being a social media company to being a metaverse company.”
-    </Typography>
-    <Typography paragraph>
-      A rebrand could also serve to further separate the futuristic work
-      Zuckerberg is focused on from the intense scrutiny Facebook is currently
-      under for the way its social platform operates today. A former employee
-      turned whistleblower, Frances Haugen, recently leaked a trove of damning
-      internal documents to The Wall Street Journal and testified about them
-      before Congress. Antitrust regulators in the US and elsewhere are trying
-      to break the company up, and public trust in how Facebook does business is
-      falling.
-    </Typography>
-    <Typography paragraph>
-      Facebook isn’t the first well-known tech company to change its company
-      name as its ambitions expand. In 2015, Google reorganized entirely under a
-      holding company called Alphabet, partly to signal that it was no longer
-      just a search engine, but a sprawling conglomerate with companies making
-      driverless cars and health tech. And Snapchat rebranded to Snap Inc. in
-      2016, the same year it started calling itself a “camera company” and
-      debuted its first pair of Spectacles camera glasses.
-    </Typography>
-    <Typography paragraph>
-      I’m told that the new Facebook company name is a closely-guarded secret
-      within its walls and not known widely, even among its full senior
-      leadership. A possible name could have something to do with Horizon, the
-      name of the still-unreleased VR version of Facebook-meets-Roblox that the
-      company has been developing for the past few years. The name of that app
-      was recently tweaked to Horizon Worlds shortly after Facebook demoed a
-      version for workplace collaboration called Horizon Workrooms.
+      <li>From the Amazon Fire Home screen, select “Find.”</li>
+      <li>Select “Search.”</li>
+      <li>
+        In the search box, type “The Verge” and then select the search icon.
+      </li>
+      <li>From the results feed, scroll down to “Apps & Games.”</li>
+      <li>Scroll through until you find “The Verge.”</li>
+      <li> Select “The Verge” and then click on “Download.”</li>
     </Typography>
     <Typography variant="h6" paragraph>
-      FACEBOOK HAS BEEN LAYING THE GROUNDWORK FOR A BRANDING CHANGE
+      ANDROID TV
     </Typography>
     <Typography paragraph>
-      Aside from Zuckerberg’s comments, Facebook has been steadily laying the
-      groundwork for a greater focus on the next generation of technology. This
-      past summer it set up a dedicated metaverse team. More recently, it
-      announced that the head of AR and VR, Andrew Bosworth, will be promoted to
-      chief technology officer. And just a couple of days ago Facebook announced
-      plans to hire 10,000 more employees to work on the metaverse in Europe.
+      <li>From the Android TV Home screen, scroll to “Apps.”</li>
+      <li>Select the Google Play store app.</li>
+      <li>
+        Navigate to the search bar on the upper right hand side and then type
+        “The Verge.”
+      </li>
+      <li>Scroll through search results until you find “The Verge.”</li>
+      <li> Select “The Verge” and click “Install.”</li>
+    </Typography>
+    <Typography variant="h6" paragraph>
+      ROKU
     </Typography>
     <Typography paragraph>
-      The metaverse is “going to be a big focus, and I think that this is just
-      going to be a big part of the next chapter for the way that the internet
-      evolves after the mobile internet,” Zuckerberg told The Verge’s Casey
-      Newton this summer. “And I think it’s going to be the next big chapter for
-      our company too, really doubling down in this area.”
+      <li>From the Roku Home screen, scroll to “Streaming channels.”</li>
+      <li>Scroll down to “Search Channels.”</li>
+      <li>In the search box, type “The Verge.”</li>
+      <li>Scroll through search results until you find “The Verge.”</li>
+      <li>Select “The Verge” and then select “Add Channel.”</li>
+    </Typography>
+    <Typography variant="h6" paragraph>
+      APPLE TV
     </Typography>
     <Typography paragraph>
-      Complicating matters is that, while Facebook has been heavily promoting
-      the idea of the metaverse in recent weeks, it’s still not a concept that’s
-      widely understood. The term was coined originally by sci-fi novelist Neal
-      Stephenson to describe a virtual world people escape to from a dystopian,
-      real world. Now it’s being adopted by one of the world’s largest and most
-      controversial companies — and it’ll have to explain why its own virtual
-      world is worth diving into.
+      <li>From your Apple TV Home screen, scroll down to “App Store.”</li>
+      <li>Navigate to the search bar and then type “The Verge.”</li>
+      <li>Scroll through search results until you find “The Verge.”</li>
+      <li>Select “The Verge” and click “Get.”</li>
     </Typography>
+    <Grid item>
+      <ZoomImage
+        style={{
+          marginBottom: "10px",
+          maxWidth: "100%",
+          width: "100%",
+          verticalAlign: "middle",
+        }}
+        src={
+          "https://cdn.vox-cdn.com/uploads/chorus_asset/file/22906778/VRG_OTT_LandingPage_AmazonFireTV.jpg"
+        }
+        alt="netflix"
+      />
+    </Grid>
+    <Grid item>
+      <ZoomImage
+        style={{
+          marginBottom: "10px",
+          maxWidth: "100%",
+          width: "100%",
+          verticalAlign: "middle",
+        }}
+        src={
+          "https://cdn.vox-cdn.com/uploads/chorus_asset/file/22906779/VRG_OTT_LandingPage_AndroidTV.jpg"
+        }
+        alt="netflix"
+      />
+    </Grid>
+    <Grid item>
+      <ZoomImage
+        style={{
+          marginBottom: "10px",
+          maxWidth: "100%",
+          width: "100%",
+          verticalAlign: "middle",
+        }}
+        src={
+          "https://cdn.vox-cdn.com/uploads/chorus_asset/file/22957228/VRG_OTT_LandingPage_AppleTV.jpg"
+        }
+        alt="netflix"
+      />
+    </Grid>
+    <Grid item>
+      <ZoomImage
+        style={{
+          marginBottom: "10px",
+          maxWidth: "100%",
+          width: "100%",
+          verticalAlign: "middle",
+        }}
+        src={
+          "https://cdn.vox-cdn.com/uploads/chorus_asset/file/22906781/VRG_OTT_LandingPage_Roku.jpg"
+        }
+        alt="netflix"
+      />
+    </Grid>
   </Fragment>
 );
 
@@ -259,6 +334,11 @@ const content3 = (
       would work. Thankfully, we have our hands on the new phones, so we’ll be
       able to poke around at them. Speaking of those phones...
     </Typography>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+      crossorigin="anonymous"
+    ></script>
     <Typography variant="h6" paragraph>
       GOOGLE SHOWED OFF THE RESULTS OF ITS CAMERA INCLUSIVITY WORK WITH REAL
       TONE
@@ -398,7 +478,11 @@ const content4 = (
       nest, a son, got married and his parents decided to let him live on the
       top floor of their family house while they moved to the ground floor.
     </Typography>
-
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+      crossorigin="anonymous"
+    ></script>
     <Typography paragraph>
       “Once again, this time on the ground floor, I had to start tearing down
       some walls, at which point, to not wait for her to change her mind again,
@@ -480,6 +564,8 @@ const content5 = (
     </Typography>
   </Fragment>
 );
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
 
 const content6 = (
   <Fragment>
@@ -766,6 +852,8 @@ const content6 = (
     </Typography>
   </Fragment>
 );
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
 
 const content7 = (
   <Fragment>
@@ -846,6 +934,11 @@ const content7 = (
       Ronaldo's last-minute winner against Villareal in their second Champions
       League game.
     </Typography>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+      crossorigin="anonymous"
+    ></script>
     <Typography paragraph>
       Under Ole Gunnar Solskjaer, someone who as a player also earned the
       reputation as a super-sub, Lingard clearly has a role to play at the Red
@@ -911,6 +1004,11 @@ const content7 = (
       not want to stay and be a part of that? I would rather be a part of
       something special than go for game time elsewhere.
     </Typography>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+      crossorigin="anonymous"
+    ></script>
     <Typography paragraph>
       "I made the choice to leave Manchester City and go to Fiorentina. I went
       there and played 20 games, got injured, went to Aston Villa. Got
@@ -1042,6 +1140,11 @@ const content8 = (
     <Typography variant="h6" paragraph>
       Manchester United 1 Liverpool 4, 2009
     </Typography>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+      crossorigin="anonymous"
+    ></script>
     <Typography paragraph>
       Fernando Torres ran riot, with Steven Gerrard, Fabio Aurelio and Andrea
       Dossena also on target and Nemanja Vidic dismissed for United, who
@@ -1174,6 +1277,11 @@ const content10 = (
       <li>“Johnny Mnemonic”</li>
       <li>“JoJo’s Bizarre Adventure: Golden Wind”</li>
       <li>“Last Action Hero”</li>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+        crossorigin="anonymous"
+      ></script>
       <li>“Moneyball”</li>
       <li>“Montford: The Chickasaw Rancher”</li>
       <li>“My Dad’s Christmas Date”</li>
@@ -1305,6 +1413,8 @@ const content10 = (
       <li>“Lead Me Home” (Netflix Documentary)</li>
       <li>“The Princess Switch 3: Romancing the Star” (Netflix Film)</li>
     </Typography>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography variant="h6" paragraph>
       Nov. 19
     </Typography>
@@ -1405,11 +1515,13 @@ const content10 = (
 
 const posts = [
   {
-    title: "Facebook is planning to rebrand the company with a new name",
+    title:
+      "SPRINGBOARD: THE SECRET HISTORY OF THE FIRST REAL SMARTPHONE IS OUT NOW",
     id: 1,
-    date: "Updated on 19/10/2021, 11:23pm",
-    src: "https://cdn.vox-cdn.com/thumbor/4QIvtDZop-CmjGh72JHZmSwEfCY=/0x0:3000x2000/500x281/filters:focal(1260x760:1740x1240):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70018751/acastro_072121_4674_zuckerberg.0.jpg",
-    snippet: " Facebook is planning to change its company name next week.",
+    date: "Updated on 26/10/2021, 11:23pm",
+    src: "https://i.insider.com/557b54bceab8eaa870946c26?width=700&format=jpeg&auto=webp",
+    snippet:
+      " A decade before Steve Jobs introduced the iPhone, a tiny team of renegades imagined and tried to build the modern smartphone.",
     content: content1,
   },
   {

@@ -9,6 +9,8 @@ const EventsTracker = GaEventsTracker("External Links");
 
 const content1 = (
   <Fragment>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography paragraph>
       Who does not like making extra cash while working at home? Or even making
       a living by working just online? In this new free course, I will share
@@ -76,6 +78,8 @@ const content1 = (
     <Typography variant="h6" paragraph>
       4. Content Creation
     </Typography>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography paragraph>
       This means that you will create content like for example a blog and you
       publish articles. You may also create a YouTube channel and publish
@@ -166,6 +170,8 @@ const content1 = (
     <Typography variant="h6" paragraph>
       Menu
     </Typography>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography paragraph>
       Through this big, simple, and attractive menu, I can point people to my
       other services. This means that I'm connecting my online businesses,
@@ -394,6 +400,8 @@ const content1 = (
       However, with Ezoic I’m making 40 to 65 dollars. So, I boosted the revenue
       by using Ezoic on my website.
     </Typography>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography paragraph>
       Ezoic is a service that will scan your website and check the best places
       to place your ad. It will also choose the best ads for your website and
@@ -469,7 +477,8 @@ const content1 = (
     </Typography>
   </Fragment>
 );
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
 const content2 = (
   <Fragment>
     <Typography paragraph>
@@ -555,6 +564,8 @@ const content2 = (
         alt="blog"
       />
     </Grid>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography paragraph>
       Click on the link and will be taken to a webpage to view your card but
       before viewing your card, for security reasons airtel implemented OTP
@@ -618,6 +629,8 @@ const content2 = (
       the trial ends so for that reason you may want to delete or cancel your
       Airtel Mastercard.
     </Typography>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography variant="h6" paragraph>
       To do that, follow the steps below.
     </Typography>
@@ -693,6 +706,8 @@ const content3 = (
       feature that helps your phone to connect to your internet service
       provider's server.
     </Typography>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography paragraph>
       Access Point Names have a lot of features, for example you can configure
       your access point names to use proxy servers and this can help you to
@@ -2274,7 +2289,7 @@ const content9 = (
     <Typography variant="h6" paragraph>
       How to Get Free internet on MTN and Airtel Uganda 2021 Trick full video
       tutorial
-      <Grid item style={{ padding: "50px" }}>
+      <Grid item style={{ textAlign: "center" }}>
         <ReactPlayer
           url="https://www.youtube.com/watch?v=axkEO67nnpA"
           controls={true}
