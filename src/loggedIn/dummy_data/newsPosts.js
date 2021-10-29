@@ -564,8 +564,11 @@ const content5 = (
     </Typography>
   </Fragment>
 );
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
-     crossorigin="anonymous"></script>
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+  crossorigin="anonymous"
+></script>;
 
 const content6 = (
   <Fragment>
@@ -852,8 +855,11 @@ const content6 = (
     </Typography>
   </Fragment>
 );
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
-     crossorigin="anonymous"></script>
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+  crossorigin="anonymous"
+></script>;
 
 const content7 = (
   <Fragment>
@@ -1413,8 +1419,11 @@ const content10 = (
       <li>“Lead Me Home” (Netflix Documentary)</li>
       <li>“The Princess Switch 3: Romancing the Star” (Netflix Film)</li>
     </Typography>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
-     crossorigin="anonymous"></script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+      crossorigin="anonymous"
+    ></script>
     <Typography variant="h6" paragraph>
       Nov. 19
     </Typography>
@@ -1513,6 +1522,276 @@ const content10 = (
   </Fragment>
 );
 
+const content11 = (
+  <Fragment>
+    <Typography variant="h6" paragraph>
+      The company wants to move past the ‘confusion and awkwardness’ of sharing
+      a name with its main app
+    </Typography>
+    <Typography paragraph>
+      For the first time in 17 years, Mark Zuckerberg has a new job title.
+    </Typography>
+    <Typography paragraph>
+      On Thursday, he officially became the CEO and chairman of Meta, the new
+      parent company name for Facebook. The rebrand is about solidifying the
+      social media giant as being about the metaverse, which Zuckerberg sees as
+      the future of the internet. Zuckerberg is staying in control of
+      everything. He told me in an interview that, unlike the founders of Google
+      who stepped aside in 2015 when it became part of a holding company called
+      Alphabet, he has no plans to give up the top job.
+    </Typography>
+    <Typography variant="h6" paragraph>
+      “I THINK WE’RE BASICALLY MOVING FROM BEING FACEBOOK FIRST AS A COMPANY TO
+      BEING METAVERSE FIRST.”
+    </Typography>
+    <Typography paragraph>
+      Instead, the change is about recognizing a shift inside the company that’s
+      already taken place. Zuckerberg has been pouring billions of dollars — at
+      least $10 billion this year alone — into building the metaverse, an
+      expansive, immersive vision of the internet taken from the pages of sci-fi
+      novels like Snow Crash and Ready Player One. “I think we’re basically
+      moving from being Facebook first as a company to being metaverse first,”
+      he told me this week over the phone. While details are slim, a unified
+      account system is going to be introduced to span all of the company’s
+      social apps, the Oculus Quest headset, Portal, and future devices. That
+      means you won’t need a Facebook account to use the Quest.
+    </Typography>
+    <Typography paragraph>
+      The rebrand to Meta, announced by Zuckerberg today at the company’s annual
+      Connect conference, has been a clandestine affair since he formally kicked
+      off the project just over six months ago. The small handful of employees
+      involved had to sign separate nondisclosure agreements, and Zuckerberg
+      refused to tell me the name itself when we spoke the day before Connect.
+      He said he had been thinking about rebranding the company ever since he
+      bought Instagram and WhatsApp, in 2012 and 2014, but earlier this year he
+      realized that it was time to make the change.
+    </Typography>
+    <Typography paragraph>
+      “I think that there was just a lot of confusion and awkwardness about
+      having the company brand be also the brand of one of the social media
+      apps,” he said. “I think it’s helpful for people to have a relationship
+      with a company that is different from the relationship with any specific
+      one of the products, that can kind of supersede all of that.”
+    </Typography>
+    <Typography variant="h6" paragraph>
+      RECENT LEAKS HAD “NOTHING TO BEAR” ON THE NAME CHANGE
+    </Typography>
+    <Typography paragraph>
+      Zuckerberg knows that the timing of this rebrand is suspect. Over the past
+      few weeks, the company has been hit with a nonstop barrage of criticism,
+      thanks to leaked internal documents provided to the media by a former
+      employee named Frances Haugen. Facebook is perhaps the most scrutinized
+      company in the world right now, and its brand has soured in the eyes of
+      young people. To the many critics, distancing the company brand and
+      Zuckerberg from the name Facebook will be seen as an evasion tactic.
+    </Typography>
+    <Typography paragraph>
+      According to Zuckerberg, the current cycle of bad news “had nothing to
+      bear on this. Even though I think some people might want to make that
+      connection, I think that’s sort of a ridiculous thing. If anything, I
+      think that this is not the environment that you would want to introduce a
+      new brand in.”
+    </Typography>
+    <Typography variant="h6" paragraph>
+      Facebook’s new company name and logo
+    </Typography>
+    <Grid item>
+      <ZoomImage
+        style={{
+          marginBottom: "10px",
+          maxWidth: "100%",
+          width: "100%",
+          verticalAlign: "middle",
+        }}
+        src={
+          "https://cdn.vox-cdn.com/thumbor/EXuD85lRZtaPidb4s5WnYoSTY4g=/800x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22963952/06_211025_CompanyEC_16x9__30fps__1080_1.gif"
+        }
+        alt="google pixel"
+      />
+    </Grid>
+    <Typography paragraph>
+      The metaverse as an idea isn’t new, but it wasn’t thrust into the
+      mainstream conversation until Zuckerberg started talking about it publicly
+      earlier this year. The concept originates from Snow Crash, a dystopian
+      novel from the 1990s in which people flee the crumbling real world to be
+      fully immersed in a virtual one. While he acknowledges that the origins of
+      the word are a “con,” Zuckerberg is trying to reclaim the metaverse as a
+      utopian idea that will unlock an entirely new economy of virtual goods and
+      services.
+    </Typography>
+    <Typography paragraph>
+      In the next decade, he thinks most people will be spending time in a fully
+      immersive, 3D version of the internet that spans not just Meta’s hardware
+      such as the Quest, but devices made by others. He’s pushing his teams to
+      build technology that could one day let you show up in a virtual space as
+      a full-bodied avatar, or appear as a hologram of yourself in the
+      real-world living room of your friend who lives across the planet.
+    </Typography>
+    <Typography paragraph>
+      He’s careful not to get into details, but he believes there will be a
+      “pretty important role” for crypto technology like NFTs and smart
+      contracts in the metaverse. “One of the big questions that people are
+      going to have about virtual goods in the metaverse is, ‘Do I really get to
+      own this thing?’” he told me. “‘Or is it just content that someone can
+      basically just take away from me in the future?’ And I’m pretty sensitive
+      to that given all the pressures that we’ve had to try to navigate around
+      censorship, and what’s the definition of something that’s harmful versus
+      when you have to get in the way of people being able to express
+      something.”
+    </Typography>
+    <Grid item>
+      <ZoomImage
+        style={{
+          marginBottom: "10px",
+          maxWidth: "100%",
+          width: "100%",
+          verticalAlign: "middle",
+        }}
+        src={
+          "https://cdn.vox-cdn.com/thumbor/QmH2k6ootLGSN4GZpUgsnOMrQAU=/0x0:2040x1360/920x0/filters:focal(0x0:2040x1360):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22888569/acastro_210929_4779_0001.jpg"
+        }
+        alt="google pixel"
+      />
+    </Grid>
+    <Typography variant="h6" paragraph>
+      WHAT IS THE METAVERSE?
+    </Typography>
+    <Typography paragraph>
+      It depends who you ask, but it usually refers to an array of
+      interconnected digital spaces, sometimes in VR, sometimes experienced
+      through a social network, and sometimes including real-time reference
+      points to the physical world.
+    </Typography>
+    <Typography paragraph>
+      The software underpinning Zuckerberg’s take on the metaverse is called
+      Horizon. It’s part Minecraft meets Roblox with an application for work
+      collaboration as well. Next year, the company plans to introduce Project
+      Cambria, a high-end, mixed reality headset previewed at Connect that mixes
+      virtual graphics with the real world in full color. It will have face and
+      eye tracking to allow for more realistic avatars.
+    </Typography>
+    <Typography paragraph>
+      Also in the works is a pair of AR glasses called Nazaré. While they are
+      still several years out, to Zuckerberg they have the potential to be as
+      widely used as mobile phones are today. The idea is that, unlike a VR
+      headset that takes you out of the real world, Nazaré will look like a
+      normal pair of glasses with displays capable of overlaying computing onto
+      the world around you. “These products are becoming decreasingly like what
+      you would think of as a social media product today,” he said. “And I think
+      just having a different identify for that is important.”
+    </Typography>
+    <Typography paragraph>
+      It’s unclear if this rebrand to Meta will achieve what Zuckerberg is
+      aiming for, but there’s no question that it’s a bold move. The company is
+      facing down new social media competitors, frustrated government
+      regulators, and a new generation of potential users who view its core app
+      as far from hip. The metaverse offers Zuckerberg a substantially new,
+      maximalist direction to move toward. Now it needs to get to work.
+    </Typography>
+    <Typography paragraph>
+      Below is a transcript of my full interview with Zuckerberg. It has been
+      edited for length and clarity:
+    </Typography>
+    <Typography variant="h6" paragraph>
+      Alex Heath: Can you explain why you’re doing this rebrand?
+    </Typography>
+    <Typography variant="h6" paragraph>
+      Mark Zuckerberg:
+    </Typography>
+    <Typography paragraph>
+      At a high level, we did this segment reporting change on Monday as part of
+      earnings. So we’re now looking at our business as two different segments.
+      One for the social apps and one for future platforms basically. And the
+      idea is that the metaverse work that we’re doing is not about any one of
+      those segments. It’s not like Reality Labs is doing the work building the
+      metaverse. It goes across all of this. The metaverse is going to be both
+      future platforms and social experiences.
+    </Typography>
+    <Typography paragraph>
+      So we wanted to have a new brand identity that, as you reported, is
+      directionally aligned with the future vision that we’re working towards.
+      There’s sort of a higher-level brand identity goal and then there’s a more
+      technical and functional goal. The higher-level piece is that Facebook is
+      the iconic social media brand. And increasingly we’re doing more than
+      that. People think of us as a social media company, but the way we think
+      about ourselves is that we’re a technology company that builds technology
+      to help people connect with each other. We think that makes us different
+      from the other companies because everyone else is trying to work on how
+      people interact with technology, where as we we build technologies so that
+      people can interact with each other.
+    </Typography>
+    <Typography variant="h6" paragraph>
+      A Meta logo replaced the “like” symbol that was previously in front of the
+      company’s HQ
+    </Typography>
+
+    <Grid item>
+      <ZoomImage
+        style={{
+          marginBottom: "10px",
+          maxWidth: "100%",
+          width: "100%",
+          verticalAlign: "middle",
+        }}
+        src={
+          "https://cdn.vox-cdn.com/thumbor/p4-X0La_taTRBxZQtIupNt7lyGw=/0x0:2040x1360/1120x0/filters:focal(0x0:2040x1360):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22964096/DSCF7682.jpg"
+        }
+        alt="google pixel"
+      />
+    </Grid>
+    <Typography paragraph>
+      For us, it was never just about social media, and increasingly we’re
+      moving beyond that. It felt like having the brand of the company be tied
+      to the idea of social media and one of the specific products that we’re
+      building there — because we now have Instagram and WhatsApp growing to be
+      really important as well — felt increasingly like it didn’t encompass
+      everything that we were doing. So we wanted to shift that to have
+      something that is more evocative of the vision that we’re moving towards.
+    </Typography>
+    <Typography paragraph>
+      On a more functional and technical basis, I think that there was just a
+      lot of confusion and awkwardness about having the company brand be also
+      the brand of one of the social media apps. When people wanted to go sign
+      into their Quest, we wanted them to sign in with their Facebook account
+      because we wanted to have a single identity or account system for the
+      company. Google has that, Apple has that. Microsoft has it. But for us,
+      the issue is that if you’re signing into Quest or WhatsApp or Instagram
+      with a Facebook account, I think that there was a confusion about, “Am I
+      signing into this with my Facebook corporate account or is this going to
+      be tied to my social media account?” People had concerns on Quest. “If I
+      don’t want to use Facebook or if something happens and my account gets
+      deactivated, is my device now going to get bricked?” That’s a concern that
+      I think people shouldn’t have to have. People had concerns that, “If I
+      sign into Instagram with this or if I sign into WhatsApp with it, does
+      that mean that my data is somehow gonna get shared over here in a way that
+      I didn’t want?”
+    </Typography>
+    <Typography paragraph>
+      “IT’S HELPFUL FOR PEOPLE TO HAVE A RELATIONSHIP WITH A COMPANY THAT IS
+      DIFFERENT FROM THE RELATIONSHIP WITH ANY SPECIFIC ONE OF THE PRODUCTS.”
+    </Typography>
+    <Typography paragraph>
+      I think it’s helpful for people to have a relationship with a company that
+      is different from the relationship with any specific one of the products,
+      that can kind of supersede all of that. So from a functional perspective,
+      I thought it was very important to have that. And as I looked out several
+      years towards launching something like Nazaré, these products are becoming
+      decreasingly like what you would think of as a social media product today.
+      I think just having a different identify for that is important.
+    </Typography>
+    <Typography paragraph>
+      When I thought about when was the best time to try to make that shift,
+      it’s kind of like as soon as possible once you realize that you want to do
+      that. So that’s what led us down this path. We’ve been thinking about it
+      for a long time. I formally kicked off the project earlier this year. It
+      was a little over more than six months ago. But this is a debate that
+      we’ve been having for a long time inside the company, about whether we
+      should do this. It’s something that I’ve been working with Alex Schultz on
+      very closely since he became the CMO.
+    </Typography>
+  </Fragment>
+);
+
 const posts = [
   {
     title:
@@ -1606,6 +1885,15 @@ const posts = [
     snippet:
       "If you’re counting down the days until the holiday season commences, we’ve got good news",
     content: content10,
+  },
+  {
+    title: "MARK ZUCKERBERG ON WHY FACEBOOK IS REBRANDING TO META",
+    id: 11,
+    date: "Updated on 29/10/2021, 3:02am",
+    src: "https://cdn.vox-cdn.com/thumbor/TeloiEOpKWBG4oZXx8VeX-OqXls=/0x0:2048x1365/539x303/filters:focal(861x520:1187x846):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70058406/The_Verge_Mark_Zuckerberg_interview__1__01.0.jpg",
+    snippet:
+      "ForFor the first time in 17 years, Mark Zuckerberg has a new job title.",
+    content: content11,
   },
 ];
 
