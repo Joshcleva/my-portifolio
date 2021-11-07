@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { Typography, Grid } from "@material-ui/core";
 import ZoomImage from "../../shared/components/ZoomImage";
 import ReactPlayer from "react-player";
+import GoogleAd from "../components/GoogleAd";
 
 const content1 = (
   <Fragment>
@@ -17,6 +18,10 @@ const content1 = (
         height={120}
       />
     </Grid>
+    {/* <div className="ad-class">
+       add your slot id  
+      <GoogleAds slot="2434444" />
+    </div> */}
     <Typography paragraph>
       A decade before Steve Jobs introduced the iPhone, a tiny team of renegades
       imagined and tried to build the modern smartphone. Nearly forgotten by
@@ -1789,8 +1794,12 @@ const content11 = (
       should do this. It’s something that I’ve been working with Alex Schultz on
       very closely since he became the CMO.
     </Typography>
+    <Grid>
+    <GoogleAd/>
+    </Grid>
   </Fragment>
 );
+
 
 const posts = [
   {

@@ -4,13 +4,11 @@ import ZoomImage from "../../shared/components/ZoomImage";
 import ReactPlayer from "react-player";
 import { NavLink } from "react-router-dom";
 import GaEventsTracker from '../components/GaEventsTracker';
-
+import GoogleAd from '../components/GoogleAd';
 const EventsTracker = GaEventsTracker("External Links");
 
 const content1 = (
   <Fragment>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
-     crossorigin="anonymous"></script>
     <Typography paragraph>
       Who does not like making extra cash while working at home? Or even making
       a living by working just online? In this new free course, I will share
@@ -2290,6 +2288,16 @@ const content9 = (
       How to Get Free internet on MTN and Airtel Uganda 2021 Trick full video
       tutorial
       <Grid item style={{ textAlign: "center" }}>
+{/* <div className="fixed-ad">
+         <GoogleFixedads
+                  slot="234578578"
+                  style={{
+                  display: 'inline-block',
+                  width: '300px',
+                  height: '250px'
+                  }}
+          />
+</div> */}
         <ReactPlayer
           url="https://www.youtube.com/watch?v=axkEO67nnpA"
           controls={true}
@@ -2779,6 +2787,7 @@ const content11 = (
       disengage it from your association so it doesn't spread to various
       contraptions.
     </Typography>
+    <GoogleAd/>
   </Fragment>
 );
 
