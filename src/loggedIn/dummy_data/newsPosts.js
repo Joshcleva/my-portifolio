@@ -43,6 +43,8 @@ const content1 = (
       mobile future and took the first steps toward what would become the modern
       smartphone — even as it faced skepticism from the entire industry.
     </Typography>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
     <Typography paragraph>
       The dream of the Handspring Treo turned out to be too far ahead of its
       time — before either the technology inside smartphones or the industry
@@ -348,6 +350,11 @@ const content3 = (
       GOOGLE SHOWED OFF THE RESULTS OF ITS CAMERA INCLUSIVITY WORK WITH REAL
       TONE
     </Typography>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+      crossorigin="anonymous"
+    ></script>
     <Typography paragraph>
       At Google I/O 2021, Google announced it was working on making its cameras
       and photo processing better for people with darker skin, and today, we got

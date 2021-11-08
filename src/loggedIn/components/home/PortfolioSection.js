@@ -292,6 +292,8 @@ function HeadSection(props) {
                             Dj's nonstop music website with download tools and
                             dashboards.
                           </Typography>
+                          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+     crossorigin="anonymous"></script>
                         </Box>
                         <NavLink to="/construction" style={{ textDecoration: "none" }}>
                           <Button

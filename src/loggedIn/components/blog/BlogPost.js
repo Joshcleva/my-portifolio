@@ -83,6 +83,11 @@ function BlogPost(props) {
               </Box>
             </Card>
           </Grid>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+            crossorigin="anonymous"
+          ></script>
           <Grid item md={3}>
             <Typography variant="h6" paragraph>
               " Don't Miss!!! "
