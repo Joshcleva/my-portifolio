@@ -6,6 +6,7 @@ import NewsCard from "./NewsCard";
 import ShareButton from "../../../shared/components/ShareButton";
 import ZoomImage from "../../../shared/components/ZoomImage";
 import smoothScrollTop from "../../../shared/functions/smoothScrollTop";
+import Helmet from 'react-helmet';
 
 const styles = (theme) => ({
   newsContentWrapper: {
@@ -39,6 +40,19 @@ function NewsPost(props) {
   }, [title]);
 
   return (
+   <>
+    <Helmet>
+      <title>
+        Josh Creative Programer Tech News
+        </title>
+        <meta
+      name="description"
+        content="Get the Latest and Trending tech news in kasese, uganda and across the whole world here at joshcreativeprogramer, joshcreativeprograma.netlify.app"
+      />
+        <meta name="keywords" content="Latest and trendingTechnology news, Tech Solutions" />
+        <link rel="apple-touch-icon" href="/jcp.png"/>
+        <style type="text/css"></style>
+      </Helmet>
     <Box
       className={classNames("lg-p-top", classes.wrapper)}
       display="flex"
@@ -106,6 +120,7 @@ function NewsPost(props) {
         </Grid>
       </div>
     </Box>
+    </>
   );
 }
 

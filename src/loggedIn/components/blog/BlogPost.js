@@ -6,6 +6,7 @@ import BlogCard from "./BlogCard";
 import ShareButton from "../../../shared/components/ShareButton";
 import ZoomImage from "../../../shared/components/ZoomImage";
 import smoothScrollTop from "../../../shared/functions/smoothScrollTop";
+import Helmet from "react-helmet";
 
 const styles = (theme) => ({
   blogContentWrapper: {
@@ -44,6 +45,20 @@ function BlogPost(props) {
       display="flex"
       justifyContent="center"
     >
+      <Helmet>
+        <title>Josh Creative Programer Tech Blog</title>
+        <meta
+        name="description" contact="Get the Latest and Trending tech blog posts in
+        kasese, uganda and across the whole world here at joshcreativeprogramer
+        , joshcreativeprograma.netlify.app"/>
+        <meta
+          name="keywords"
+          content="Latest and trendingTechnology blog posts, Tech Solutions, how to make money in uganda today, easy steps, get online jobs in uganda today, how to get free data in uganda for airtel, mtn and lyca mobile"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
+
       <div className={classes.blogContentWrapper}>
         <Grid container spacing={5}>
           <Grid item md={9}>

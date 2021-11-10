@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 import GaEventsTracker from '../components/GaEventsTracker';
 import GoogleAd from '../components/GoogleAd';
 const EventsTracker = GaEventsTracker("External Links");
+// import Helmet from "react-helmet";
 
 const content1 = (
   <Fragment>

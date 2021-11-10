@@ -12,6 +12,7 @@ import dummyNewsPosts from "../dummy_data/newsPosts";
 import Routing from "./Routing";
 import smoothScrollTop from "../../shared/functions/smoothScrollTop";
 import ScrollToTop from "../components/scrollToTop/ScrollToTop";
+import Helmet from "react-helmet";
 
 AOS.init({ once: true });
 
@@ -153,6 +154,28 @@ function Main(props) {
 
   return (
     <div className={classes.wrapper}>
+      <Helmet>
+        <title>About Josh Creative Programer</title>
+        <meta
+          name="description"
+          content="  Hi, I Am Bwambale Joshua also known as Josh Creative
+                            Programer with a Bacholar's Degree in Software
+                            Engineering. I'm an experienced and well-vetted Web
+                            App | Software Developer using the latest and
+                            marketable programing languages and tools to produce
+                            the best work for my clients, Besides, I Am also
+                            professional Electrical Engineer and Logo Designer |
+                            Illustrator aiming to elevate remote Tech,
+                            Businesses and Personal lifestyle through My Full
+                            stack development Skills."
+        />
+        <meta
+          name="keywords"
+          content="Java scripts, C++, Ract Native, Python, Php, Kotlin, Html and Word Press"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
       <ScrollToTop />
 
       {!isCookieRulesDialogOpen && (

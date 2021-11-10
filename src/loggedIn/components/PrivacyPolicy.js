@@ -11,6 +11,7 @@ import {
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import ColoredButton from "../../shared/components/ColoredButton";
 import { NavLink } from "react-router-dom";
+import Helmet from "react-helmet";
 
 const styles = (theme) => ({
   termsConditionsListitem: {
@@ -31,6 +32,20 @@ const styles = (theme) => ({
 function PrivacyPolicy(props) {
   const { classes, onClose, theme } = props;
   return (
+      <>
+      <Helmet>
+        <title>About Josh Creative Programer</title>
+        <meta
+          name="description"
+          content="Jcp privacy policy"
+        />
+        <meta
+          name="keywords"
+          content="Java scripts, C++, Ract Native, Python, Php, Kotlin, Html and Word Press"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
     <Dialog open scroll="paper" onClose={onClose} hideBackdrop>
       <DialogTitle>Privacy Policy</DialogTitle>
       <DialogContent>
@@ -390,6 +405,7 @@ function PrivacyPolicy(props) {
         </NavLink>
       </DialogActions>
     </Dialog>
+    </>
   );
 }
 

@@ -4,6 +4,7 @@ import { Grid, Typography, isWidthUp, withWidth } from "@material-ui/core";
 import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
 import {NavLink} from 'react-router-dom';
+import Helmet from "react-helmet";
 
 const width = 100;
 
@@ -134,13 +135,26 @@ function FeatureSection(props) {
   const { width } = props;
   return (
     <div style={{ backgroundColor: "#FFFFFF" }}>
+      <Helmet>
+        <title>Josh Creative Programer</title>
+        <meta
+          name="description"
+          content="Find my services for kasese, fort portal, bwera, bundibugyo, mbarara, uganda and across the whole world here at joshcreativeprogramer, joshcreativeprograma.netlify.app"
+        />
+        <meta
+          name="keywords"
+          content="Web designing, web hosting, word press, gaming, laptop and phone repair and many other tech solutions"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
       <div className="container-fluid lg-p-top">
         <Typography variant="h3" align="center" className="lg-mg-bottom">
           Services
         </Typography>
         <div className="container-fluid">
           <Grid container spacing={calculateSpacing(width)}>
-            {features.map(element => (
+            {features.map((element) => (
               <Grid
                 item
                 xs={6}

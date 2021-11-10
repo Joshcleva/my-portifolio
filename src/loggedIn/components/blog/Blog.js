@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Grid, Box, isWidthUp, withWidth, withStyles } from "@material-ui/core";
 import BlogCard from "./BlogCard";
+import Helmet from "react-helmet";
 
 const styles = (theme) => ({
   blogContentWrapper: {
@@ -67,6 +68,20 @@ function Blog(props) {
   }, [selectBlog]);
 
   return (
+    <>
+     <Helmet>
+        <title>Josh Creative Programer Tech Blog</title>
+        <meta
+        name="description" contact="Get the Latest and Trending tech blog posts in
+        kasese, uganda and across the whole world here at joshcreativeprogramer
+        , joshcreativeprograma.netlify.app, joshcreativeprogrammer"/>
+        <meta
+          name="keywords"
+          content="Latest and trendingTechnology blog posts, Tech Solutions"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
     <Box
       display="flex"
       justifyContent="center"
@@ -78,6 +93,7 @@ function Blog(props) {
         </Grid>
       </div>
     </Box>
+    </>
   );
 }
 

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import { Typography, withStyles } from "@material-ui/core";
+import Helmet from "react-helmet";
 
 const styles = theme => ({
   iconWrapper: {
@@ -46,9 +47,22 @@ function FeatureCard(props) {
         style={{
           color: color,
           backgroundColor: shadeColor(color, 0.5),
-          fill: color
+          fill: color,
         }}
       >
+        <Helmet>
+          <title>Josh Creative Programer</title>
+          <meta
+            name="description"
+            content="Get the Latest and Trending tech news and blogs in kasese, fort portal, bwera, bundibugyo, mbarara, uganda and across the whole world here at joshcreativeprogramer, joshcreativeprograma.netlify.app"
+          />
+          <meta
+            name="keywords"
+            content="Latest and trendingTechnology news and blogs, Tech Solutions"
+          />
+          <link rel="apple-touch-icon" href="/jcp.png" />
+          <style type="text/css"></style>
+        </Helmet>
         {Icon}
       </div>
       <Typography variant="h5" paragraph>

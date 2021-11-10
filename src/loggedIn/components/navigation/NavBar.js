@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import Helmet from "react-helmet";
 
 import {
   AppBar,
@@ -121,6 +122,25 @@ function NavBar(props) {
   ];
   return (
     <div className={classes.root}>
+      <Helmet>
+        <title>Josh Creative Programer, Kasese, Uganda</title>
+        <meta
+          name="description"
+          content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+        />
+        <meta
+          name="keywords"
+          content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <Link to={"/"} className={classes.noDecoration}>

@@ -3,6 +3,7 @@ import { useSpring, animated, to } from "@react-spring/web";
 import { useGesture } from "react-use-gesture";
 import styled from "styled-components";
 import styles from "./style.css";
+import Helmet from "react-helmet";
 
 const calcX = (y: 10, ly: 10) => -(y - ly - window.innerHeight / 2) / 20;
 const calcY = (x: 10, lx: 10) => (x - lx - window.innerWidth / 2) / 20;
@@ -99,6 +100,25 @@ function MyProfile() {
 
   return (
     <div className={styles.container}>
+      <Helmet>
+        <title>Josh Creative Programer, Kasese, Uganda</title>
+        <meta
+          name="description"
+          content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+        />
+        <meta
+          name="keywords"
+          content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
       <animated.div
         ref={domTarget}
         className={styles.card}

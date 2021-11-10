@@ -15,6 +15,7 @@ import {
 import WaveBorder from "../../../shared/components/WaveBorder";
 import ZoomImage from "../../../shared/components/ZoomImage";
 import { NavLink } from "react-router-dom";
+import Helmet from 'react-helmet';
 
 const styles = (theme) => ({
   extraLargeButtonLabel: {
@@ -111,6 +112,19 @@ function HeadSection(props) {
 
   return (
     <Fragment>
+      <Helmet>
+        <title>Josh Creative Programer Portfolio</title>
+        <meta
+          name="description"
+          content=" I have built several projects like Kasindi.com, sdamission.com, moxie.com, sdaworldwidefm.com"
+        />
+        <meta
+          name="keywords"
+          content="Kasindi.com, sdamission.com, moxie.com, sdaworldwidefm.com"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
       <div className={classNames("lg-p-top", classes.wrapper)}>
         <div className={classNames("container-fluid", classes.container)}>
           <Box display="flex" justifyContent="center" className="row">
@@ -160,7 +174,10 @@ function HeadSection(props) {
                             product of your choice.
                           </Typography>
                         </Box>
-                        <NavLink to="/construction" style={{ textDecoration: "none" }}>
+                        <NavLink
+                          to="/construction"
+                          style={{ textDecoration: "none" }}
+                        >
                           <Button
                             variant="contained"
                             color="secondary"
@@ -227,7 +244,10 @@ function HeadSection(props) {
                             around the world.
                           </Typography>
                         </Box>
-                        <NavLink to="/construction" style={{ textDecoration: "none" }}>
+                        <NavLink
+                          to="/construction"
+                          style={{ textDecoration: "none" }}
+                        >
                           <Button
                             variant="contained"
                             color="secondary"
@@ -292,10 +312,16 @@ function HeadSection(props) {
                             Dj's nonstop music website with download tools and
                             dashboards.
                           </Typography>
-                          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
-     crossorigin="anonymous"></script>
+                          <script
+                            async
+                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+                            crossorigin="anonymous"
+                          ></script>
                         </Box>
-                        <NavLink to="/construction" style={{ textDecoration: "none" }}>
+                        <NavLink
+                          to="/construction"
+                          style={{ textDecoration: "none" }}
+                        >
                           <Button
                             variant="contained"
                             color="secondary"
@@ -362,7 +388,10 @@ function HeadSection(props) {
                             marketing and making money online.
                           </Typography>
                         </Box>
-                        <NavLink to="/construction" style={{ textDecoration: "none" }}>
+                        <NavLink
+                          to="/construction"
+                          style={{ textDecoration: "none" }}
+                        >
                           <Button
                             variant="contained"
                             color="secondary"
@@ -428,7 +457,10 @@ function HeadSection(props) {
                             sda music around the globe.
                           </Typography>
                         </Box>
-                        <NavLink to="/construction" style={{ textDecoration: "none" }}>
+                        <NavLink
+                          to="/construction"
+                          style={{ textDecoration: "none" }}
+                        >
                           <Button
                             variant="contained"
                             color="secondary"

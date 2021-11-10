@@ -4,6 +4,7 @@ import { Typography, Box, withStyles } from "@material-ui/core";
 import CheckIcon from "@material-ui/icons/Check";
 import { NavLink } from "react-router-dom";
 import { Button } from "@material-ui/core";
+import Helmet from "react-helmet";
 
 const styles = (theme) => ({
   card: {
@@ -55,6 +56,25 @@ function PriceCard(props) {
   const { classes, theme, title, pricing, features, highlighted } = props;
   return (
     <div className={highlighted ? classes.cardHightlighted : classes.card}>
+      <Helmet>
+        <title>Josh Creative Programer, Kasese, Uganda</title>
+        <meta
+          name="description"
+          content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+        />
+        <meta
+          name="keywords"
+          content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
       <Box mb={2}>
         <Typography
           variant={highlighted ? "h5" : "h6"}

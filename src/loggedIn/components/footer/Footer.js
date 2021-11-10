@@ -17,7 +17,7 @@ import WaveBorder from "../../../shared/components/WaveBorder";
 import transitions from "@material-ui/core/styles/transitions";
 import ColoredButton from "../../../shared/components/ColoredButton";
 import { NavLink } from "react-router-dom";
-
+import Helmet from 'react-helmet';
 
 const styles = (theme) => ({
   footerInner: {
@@ -165,6 +165,19 @@ function Footer(props) {
         animationNegativeDelay={5}
       />
       <div className={classes.footerInner}>
+       <Helmet>
+      <title>
+        Josh Creative Programer
+        </title>
+        <meta
+      name="description"
+        content="Get the Latest and Trending tech news and blogs in kasese, fort portal, bwera, bundibugyo, mbarara, uganda and across the whole world here at joshcreativeprogramer, joshcreativeprograma.netlify.app"
+      />
+        <meta name="keywords" content="Latest and trendingTechnology news and blogs, Tech Solutions" />
+        <link rel="apple-touch-icon" href="/jcp.png"/>
+        <style type="text/css"></style>
+      </Helmet>
+
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
           <Grid item xs={12} md={6} lg={4}>
             <form>

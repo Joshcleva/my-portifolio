@@ -15,6 +15,7 @@ import {
 import WaveBorder from "../../../shared/components/WaveBorder";
 import Animates from "../animates/Animates";
 import { NavLink } from "react-router-dom";
+import Helmet from "react-helmet";
 
 const styles = (theme) => ({
   extraLargeButtonLabel: {
@@ -103,83 +104,109 @@ const styles = (theme) => ({
 function About(props) {
   const { classes, theme, width } = props;
   return (
-    <Fragment>
-      <div className={classNames("lg-p-top", classes.wrapper)}>
-        <div className={classNames("container-fluid", classes.container)}>
-          <Box display="flex" justifyContent="center" className="row">
-            <Card
-              className={classes.card}
-              data-aos-delay="200"
-              data-aos="zoom-in"
-            >
-              <Animates />
-              <div className={classNames(classes.containerFix, "container")}>
-                <Box justifyContent="Center" className="row">
-                  <Grid item xs={12} md={5}>
-                    <Box
-                      display="flex"
-                      flexDirection="column"
-                      justifyContent="space-between"
-                      height="100%"
-                      textAlign="center"
-                    >
-                      <Box mb={4}>
-                        <Typography
-                          style={{ textAlign: "center" }}
-                          variant={isWidthUp("lg", width) ? "h3" : "h4"}
-                        >
-                          ABOUT JOSH CREATIVE PROGRAMER
-                        </Typography>
-                      </Box>
-                      <Box mb={4}>
-                        <MyProfile style={{ textAlign: "center" }} />
-                      </Box>
-                      <div>
-                        <Box mb={2}>
+    <>
+      <Helmet>
+        <title>About Josh Creative Programer</title>
+        <meta
+          name="description"
+          contentt="  Hi, I Am Bwambale Joshua also known as Josh Creative
+                            Programer with a Bacholar's Degree in Software
+                            Engineering. I'm an experienced and well-vetted Web
+                            App | Software Developer using the latest and
+                            marketable programing languages and tools to produce
+                            the best work for my clients, Besides, I Am also
+                            professional Electrical Engineer and Logo Designer |
+                            Illustrator aiming to elevate remote Tech,
+                            Businesses and Personal lifestyle through My Full
+                            stack development Skills."
+        />
+        <meta
+          name="keywords"
+          content="Java scripts, C++, Ract Native, Python, Php, Kotlin, Html and Word Press"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
+      <Fragment>
+        <div className={classNames("lg-p-top", classes.wrapper)}>
+          <div className={classNames("container-fluid", classes.container)}>
+            <Box display="flex" justifyContent="center" className="row">
+              <Card
+                className={classes.card}
+                data-aos-delay="200"
+                data-aos="zoom-in"
+              >
+                <Animates />
+                <div className={classNames(classes.containerFix, "container")}>
+                  <Box justifyContent="Center" className="row">
+                    <Grid item xs={12} md={5}>
+                      <Box
+                        display="flex"
+                        flexDirection="column"
+                        justifyContent="space-between"
+                        height="100%"
+                        textAlign="center"
+                      >
+                        <Box mb={4}>
                           <Typography
-                            variant={isWidthUp("lg", width) ? "h6" : "body1"}
-                            color="textSecondary"
+                            style={{ textAlign: "center" }}
+                            variant={isWidthUp("lg", width) ? "h3" : "h4"}
                           >
-                            Hi, I Am Bwambale Joshua also known as Josh
-                            Creative Programer with a Bacholar's Degree in
-                            Software Engineering. I'm an experienced and
-                            well-vetted Web App | Software Developer using the
-                            latest and marketable programing languages and tools
-                            to produce the best work for my clients, Besides, I
-                            Am also professional Electrical Engineer and Logo
-                            Designer | Illustrator aiming to elevate remote
-                            Tech, Businesses and Personal lifestyle through My
-                            Full stack development Skills
+                            ABOUT JOSH CREATIVE PROGRAMER
                           </Typography>
                         </Box>
-                        <NavLink to="/portfolio"
-                        style={{textDecoration:"none"}}>
-                          <Button
-                            variant="contained"
-                            color="secondary"
-                            fullWidth
-                            className={classes.extraLargeButton}
-                            classes={{ label: classes.extraLargeButtonLabel }}
+                        <Box mb={4}>
+                          <MyProfile style={{ textAlign: "center" }} />
+                        </Box>
+                        <div>
+                          <Box mb={2}>
+                            <Typography
+                              variant={isWidthUp("lg", width) ? "h6" : "body1"}
+                              color="textSecondary"
+                            >
+                              Hi, I Am Bwambale Joshua also known as Josh
+                              Creative Programer with a Bacholar's Degree in
+                              Software Engineering. I'm an experienced and
+                              well-vetted Web App | Software Developer using the
+                              latest and marketable programing languages and
+                              tools to produce the best work for my clients,
+                              Besides, I Am also professional Electrical
+                              Engineer and Logo Designer | Illustrator aiming to
+                              elevate remote Tech, Businesses and Personal
+                              lifestyle through My Full stack development Skills
+                            </Typography>
+                          </Box>
+                          <NavLink
+                            to="/portfolio"
+                            style={{ textDecoration: "none" }}
                           >
-                            My Portfolio
-                          </Button>
-                        </NavLink>
-                      </div>
-                    </Box>
-                  </Grid>
-                </Box>
-              </div>
-            </Card>
-          </Box>
+                            <Button
+                              variant="contained"
+                              color="secondary"
+                              fullWidth
+                              className={classes.extraLargeButton}
+                              classes={{ label: classes.extraLargeButtonLabel }}
+                            >
+                              My Portfolio
+                            </Button>
+                          </NavLink>
+                        </div>
+                      </Box>
+                    </Grid>
+                  </Box>
+                </div>
+              </Card>
+            </Box>
+          </div>
         </div>
-      </div>
-      <WaveBorder
-        upperColor={theme.palette.secondary.main}
-        lowerColor="#FFFFFF"
-        className={classes.waveBorder}
-        animationNegativeDelay={3}
-      />
-    </Fragment>
+        <WaveBorder
+          upperColor={theme.palette.secondary.main}
+          lowerColor="#FFFFFF"
+          className={classes.waveBorder}
+          animationNegativeDelay={3}
+        />
+      </Fragment>
+    </>
   );
 }
 

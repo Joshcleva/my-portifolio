@@ -3,6 +3,7 @@ import { Typography, Grid } from "@material-ui/core";
 import ZoomImage from "../../shared/components/ZoomImage";
 import ReactPlayer from "react-player";
 import GoogleAd from "../components/GoogleAd";
+// import Helmet from "react-helmet";
 
 const content1 = (
   <Fragment>

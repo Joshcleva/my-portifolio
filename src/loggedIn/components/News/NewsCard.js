@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import classNames from "classnames";
 import { Typography, Card, Box, withStyles } from "@material-ui/core";
+import Helmet from "react-helmet";
 
 const styles = (theme) => ({
   img: {
@@ -52,6 +53,19 @@ function NewsCard(props) {
   const { classes, url, src, title, snippet, date } = props;
 
   return (
+    <>
+     <Helmet>
+      <title>
+        Josh Creative Programer Tech News
+        </title>
+        <meta
+      name="description"
+        content="Get the Latest and Trending tech news in kasese, uganda and across the whole world here at joshcreativeprogramer, joshcreativeprograma.netlify.app"
+      />
+        <meta name="keywords" content="Latest and trendingTechnology news, Tech Solutions" />
+        <link rel="apple-touch-icon" href="/jcp.png"/>
+        <style type="text/css"></style>
+      </Helmet>
     <Card className={classes.card}>
       {src && (
         <NavLink to={url} tabIndex={-1}>
@@ -78,6 +92,7 @@ function NewsCard(props) {
         </Typography>
       </Box>
     </Card>
+    </>
   );
 }
 

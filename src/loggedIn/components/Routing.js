@@ -16,6 +16,7 @@ import PrivacyPolicy from "./PrivacyPolicy";
 import Construction from "./Construction";
 import TermsOfService from "./TermsOfService";
 import useLocationBlocker from "../../shared/functions/useLocationBlocker";
+import Helmet from "react-helmet";
 
 function Routing(props) {
 
@@ -36,6 +37,29 @@ function Routing(props) {
   } = props;
   useLocationBlocker();
   return (
+      <>
+      <Helmet>
+        <title>About Josh Creative Programer</title>
+        <meta
+          name="description"
+          content="  Hi, I Am Bwambale Joshua also known as Josh Creative
+                            Programer with a Bacholar's Degree in Software
+                            Engineering. I'm an experienced and well-vetted Web
+                            App | Software Developer using the latest and
+                            marketable programing languages and tools to produce
+                            the best work for my clients, Besides, I Am also
+                            professional Electrical Engineer and Logo Designer |
+                            Illustrator aiming to elevate remote Tech,
+                            Businesses and Personal lifestyle through My Full
+                            stack development Skills."
+        />
+        <meta
+          name="keywords"
+          content="Java scripts, C++, Ract Native, Python, Php, Kotlin, Html and Word Press"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
     <Switch>
       {blogPosts.map((post) => (
         <PropsRoute
@@ -128,7 +152,8 @@ function Routing(props) {
         selectConstruction={selectConstruction}
       />
       <PropsRoute path="/" component={Home} selectHome={selectHome} />
-    </Switch>
+        </Switch>
+        </>
   );
 }
 

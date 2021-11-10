@@ -11,6 +11,7 @@ import {
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import ColoredButton from "../../shared/components/ColoredButton";
 import { NavLink } from "react-router-dom";
+import Helmet from "react-helmet";
 
 const styles = theme => ({
   termsConditionsListitem: {
@@ -32,6 +33,20 @@ function TermsOfService(props) {
   
   const { classes, onClose, theme } = props;
   return (
+    <>
+      <Helmet>
+        <title>About Josh Creative Programer</title>
+        <meta
+          name="description"
+          content=" Jcp Terms Of Service"
+        />
+        <meta
+          name="keywords"
+          content="Java scripts, C++, Ract Native, Python, Php, Kotlin, Html and Word Press"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
     <Dialog open scroll="paper" onClose={onClose} hideBackdrop>
       <DialogTitle>Terms of Service</DialogTitle>
       <DialogContent>
@@ -456,6 +471,7 @@ function TermsOfService(props) {
         </NavLink>
       </DialogActions>
     </Dialog>
+    </>
   );
 }
 

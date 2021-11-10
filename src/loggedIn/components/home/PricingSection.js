@@ -10,6 +10,7 @@ import {
 } from "@material-ui/core";
 import PriceCard from "./PriceCard";
 import calculateSpacing from "./calculateSpacing";
+import Helmet from "react-helmet";
 
 const styles = (theme) => ({
   containerFix: {
@@ -49,6 +50,25 @@ function PricingSection(props) {
   const { width, classes } = props;
   return (
     <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
+      <Helmet>
+        <title>Josh Creative Programer, Kasese, Uganda</title>
+        <meta
+          name="description"
+          content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+        />
+        <meta
+          name="keywords"
+          content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+        />
+        <link rel="apple-touch-icon" href="/jcp.png" />
+        <style type="text/css"></style>
+      </Helmet>
       <Typography variant="h3" align="center" className="lg-mg-bottom">
         Pricing
       </Typography>

@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import emailjs from "emailjs-com";
+import Helmet from "react-helmet";
 
 const Contact = (props)=> {
 
@@ -26,6 +27,19 @@ function sendEmail(e) {
     
     return (
       <div>
+        <Helmet>
+          <title>Josh Creative Programer Tech Blog</title>
+          <meta
+            name="description"
+            content="Josh Creativve Programer is located at Asaba street kasese, bwera, fort portal, bundibugyo, mbarara road, uganda. for more information call +256772951826"
+          />
+          <meta
+            name="keywords"
+            content="kasese, bwera, fort portal, bundibugyo, mbarara road, uganda."
+          />
+          <link rel="apple-touch-icon" href="/jcp.png" />
+          <style type="text/css"></style>
+        </Helmet>
         <Container id="contact">
           <h2>Contact Me</h2>
           <p>

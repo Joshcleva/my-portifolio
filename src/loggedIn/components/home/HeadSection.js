@@ -17,6 +17,7 @@ import ZoomImage from "../../../shared/components/ZoomImage";
 import { NavLink } from "react-router-dom";
 import { init } from "ityped";
 import './style.css';
+import Helmet from "react-helmet";
 
 const styles = (theme) => ({
   extraLargeButtonLabel: {
@@ -160,6 +161,25 @@ function HeadSection(props) {
   return (
     <Fragment>
       <div className={classNames("lg-p-top", classes.wrapper)}>
+        <Helmet>
+          <title>Josh Creative Programer, Kasese, Uganda</title>
+          <meta
+            name="description"
+            content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+          />
+          <meta
+            name="keywords"
+            content="Stand Out from the competition and get the stunning mobile friendly website | App now at extremely cheap prices
+                            and promote Your Company | Organisation | Business
+                            across the Globe. If you're seeking a web presence or are looking to hire,
+                            contact me here"
+          />
+          <link rel="apple-touch-icon" href="/jcp.png" />
+          <style type="text/css"></style>
+        </Helmet>
         <div className={classNames("container-fluid", classes.container)}>
           <Box display="flex" justifyContent="center" className="row">
             <Card
@@ -185,13 +205,9 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          <span
-                            ref={textRef}
-                            style={{ color: "crimson" }}
-                            
-                          >
+                          <span ref={textRef} style={{ color: "crimson" }}>
                             <div className="ityped-cursor"></div>
-                            </span>
+                          </span>
                         </Typography>
                       </Box>
                       <div>
@@ -253,8 +269,11 @@ function HeadSection(props) {
                       />
                     </Grid>
                   </Hidden>
-                  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
-     crossorigin="anonymous"></script>
+                  <script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7844539134729812"
+                    crossorigin="anonymous"
+                  ></script>
                 </Box>
               </div>
             </Card>
