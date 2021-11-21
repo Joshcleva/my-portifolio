@@ -8,7 +8,6 @@ import "aos/dist/aos.css";
 import CookieRulesDialog from "./cookies/CookieRulesDialog";
 import CookieConsent from "./cookies/CookieConsent";
 import dummyBlogPosts from "../dummy_data/blogPosts";
-import dummyNewsPosts from "../dummy_data/newsPosts";
 import Routing from "./Routing";
 import smoothScrollTop from "../../shared/functions/smoothScrollTop";
 import ScrollToTop from "../components/scrollToTop/ScrollToTop";
@@ -29,7 +28,6 @@ function Main(props) {
   const [selectedTab, setSelectedTab] = useState(null);
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
   const [blogPosts, setBlogPosts] = useState([]);
-  const [newsPosts, setNewsPosts] = useState([]);
   const [isCookieRulesDialogOpen, setIsCookieRulesDialogOpen] = useState(false);
 
   const selectHome = useCallback(() => {
@@ -42,12 +40,6 @@ function Main(props) {
     smoothScrollTop();
     document.title = "Jcp - Blog";
     setSelectedTab("Blog");
-  }, [setSelectedTab]);
-
-  const selectNews = useCallback(() => {
-    smoothScrollTop();
-    document.title = "Jcp - News";
-    setSelectedTab("News");
   }, [setSelectedTab]);
 
   const selectContact = useCallback(() => {
@@ -124,23 +116,6 @@ function Main(props) {
     setBlogPosts(blogPosts);
   }, [setBlogPosts]);
 
-  const fetchNewsPosts = useCallback(() => {
-    const newsPosts = dummyNewsPosts.map((newsPost) => {
-      let title = newsPost.title;
-      title = title.toLowerCase();
-      /* Remove unwanted characters, only accept alphanumeric and space */
-      title = title.replace(/[^A-Za-z0-9 ]/g, "");
-      /* Replace multi spaces with a single space */
-      title = title.replace(/\s{2,}/g, " ");
-      /* Replace space with a '-' symbol */
-      title = title.replace(/\s/g, "-");
-      newsPost.url = `/news/post/${title}`;
-      newsPost.params = `?id=${newsPost.id}`;
-      return newsPost;
-    });
-    setNewsPosts(newsPosts);
-  }, [setNewsPosts]);
-
   const handleCookieRulesDialogOpen = useCallback(() => {
     setIsCookieRulesDialogOpen(true);
   }, [setIsCookieRulesDialogOpen]);
@@ -150,7 +125,6 @@ function Main(props) {
   }, [setIsCookieRulesDialogOpen]);
 
   useEffect(fetchBlogPosts, [fetchBlogPosts]);
-  useEffect(fetchNewsPosts, [fetchNewsPosts]);
 
   return (
     <div className={classes.wrapper}>
@@ -196,10 +170,8 @@ function Main(props) {
       />
       <Routing
         blogPosts={blogPosts}
-        newsPosts={newsPosts}
         selectHome={selectHome}
         selectBlog={selectBlog}
-        selectNews={selectNews}
         selectContact={selectContact}
         selectAbout={selectAbout}
         selectFeatureSection={selectFeatureSection}

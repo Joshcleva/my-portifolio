@@ -7,11 +7,9 @@ import FeatureSection from "./home/FeatureSection";
 import PortfolioSection from "./home/PortfolioSection";
 import PricingSection from "./home/PricingSection";
 import Blog from "./blog/Blog";
-import News from "./News/News";
 import Contact from "./contact/Contact";
 import About from "./about/About";
 import BlogPost from "./blog/BlogPost";
-import NewsPost from "./News/NewsPost";
 import PrivacyPolicy from "./PrivacyPolicy";
 import Construction from "./Construction";
 import TermsOfService from "./TermsOfService";
@@ -22,10 +20,8 @@ function Routing(props) {
 
   const {
     blogPosts,
-    newsPosts,
     selectBlog,
     selectHome,
-    selectNews,
     selectContact,
     selectAbout,
     selectFeatureSection,
@@ -37,7 +33,7 @@ function Routing(props) {
   } = props;
   useLocationBlocker();
   return (
-      <>
+    <>
       <Helmet>
         <title>About Josh Creative Programer</title>
         <meta
@@ -60,100 +56,80 @@ function Routing(props) {
         <link rel="apple-touch-icon" href="/jcp.png" />
         <style type="text/css"></style>
       </Helmet>
-    <Switch>
-      {blogPosts.map((post) => (
+      <Switch>
+        {blogPosts.map((post) => (
+          <PropsRoute
+            path={post.url}
+            component={BlogPost}
+            title={post.title}
+            key={post.title}
+            src={post.src}
+            date={post.date}
+            content={post.content}
+            otherArticles={blogPosts.filter(
+              (blogPost) => blogPost.id !== post.id
+            )}
+          />
+        ))}
         <PropsRoute
-          path={post.url}
-          component={BlogPost}
-          title={post.title}
-          key={post.title}
-          src={post.src}
-          date={post.date}
-          content={post.content}
-          otherArticles={blogPosts.filter(
-            (blogPost) => blogPost.id !== post.id
-          )}
+          exact
+          path="/blog"
+          component={Blog}
+          selectBlog={selectBlog}
+          blogPosts={blogPosts}
         />
-      ))}
-      {newsPosts.map((post) => (
+
         <PropsRoute
-          path={post.url}
-          component={NewsPost}
-          title={post.title}
-          key={post.title}
-          src={post.src}
-          date={post.date}
-          content={post.content}
-          otherArticles={newsPosts.filter(
-            (newsPost) => newsPost.id !== post.id
-          )}
+          exact
+          path="/contact"
+          component={Contact}
+          selectContact={selectContact}
         />
-      ))}
-      <PropsRoute
-        exact
-        path="/blog"
-        component={Blog}
-        selectBlog={selectBlog}
-        blogPosts={blogPosts}
-      />
-      <PropsRoute
-        exact
-        path="/news"
-        component={News}
-        selectNews={selectNews}
-        newsPosts={newsPosts}
-      />
-      <PropsRoute
-        exact
-        path="/contact"
-        component={Contact}
-        selectContact={selectContact}
-      />
-      <PropsRoute
-        exact
-        path="/about"
-        component={About}
-        selectAbout={selectAbout}
-      />
-      <PropsRoute
-        exact
-        path="/services"
-        component={FeatureSection}
-        selectFeatureSection={selectFeatureSection}
-      />
-      <PropsRoute
-        exact
-        path="/portfolio"
-        component={PortfolioSection}
-        selectPortfolioSection={selectPortfolioSection}
-      />
-      <PropsRoute
-        exact
-        path="/pricing"
-        component={PricingSection}
-        selectPricingSection={selectPricingSection}
-      />
-      <PropsRoute
-        exact
-        path="/privacy-policy"
-        component={PrivacyPolicy}
-        selectPrivacyPolicy={selectPrivacyPolicy}
-      />
-      <PropsRoute
-        exact
-        path="/terms-of-service"
-        component={TermsOfService}
-        selectTermsOfService={selectTermsOfService}
-      />
-      <PropsRoute
-        exact
-        path="/construction"
-        component={Construction}
-        selectConstruction={selectConstruction}
-      />
-      <PropsRoute path="/" component={Home} selectHome={selectHome} />
-        </Switch>
-        </>
+        <PropsRoute
+          exact
+          path="/about"
+          component={About}
+          selectAbout={selectAbout}
+        />
+        <PropsRoute
+          exact
+          path="/services"
+          component={FeatureSection}
+          selectFeatureSection={selectFeatureSection}
+        />
+        <PropsRoute
+          exact
+          path="/portfolio"
+          component={PortfolioSection}
+          selectPortfolioSection={selectPortfolioSection}
+        />
+        <PropsRoute
+          exact
+          path="/pricing"
+          component={PricingSection}
+          selectPricingSection={selectPricingSection}
+        />
+        <PropsRoute
+          exact
+          path="/privacy-policy"
+          component={PrivacyPolicy}
+          selectPrivacyPolicy={selectPrivacyPolicy}
+        />
+        <PropsRoute
+          exact
+          path="/terms-of-service"
+          component={TermsOfService}
+          selectTermsOfService={selectTermsOfService}
+        />
+        <PropsRoute
+          exact
+          path="/construction"
+          component={Construction}
+          selectConstruction={selectConstruction}
+        />
+        <PropsRoute path="/" component={Home} selectHome={selectHome} />
+      </Switch>
+    </>
   );
 }
 

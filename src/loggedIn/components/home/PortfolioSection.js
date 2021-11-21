@@ -120,7 +120,7 @@ function HeadSection(props) {
         />
         <meta
           name="keywords"
-          content="Kasindi.com, sdamission.com, moxie.com, sdaworldwidefm.com"
+          content="Kasindi.com, sdamission.com, moxie.com, sdaworldwidefm.com, jrmediastudi.com"
         />
         <link rel="apple-touch-icon" href="/jcp.png" />
         <style type="text/css"></style>
@@ -134,6 +134,148 @@ function HeadSection(props) {
             >
               Portfolio
             </Typography>
+            <Card
+              className={classes.card}
+              data-aos-delay="200"
+              data-aos="zoom-in"
+              style={{ marginBottom: "50px" }}
+            >
+              <div className={classNames(classes.containerFix, "container")}>
+                <Box justifyContent="space-between" className="row">
+                  <Grid item xs={12} md={5}>
+                    <Box
+                      display="flex"
+                      flexDirection="column"
+                      justifyContent="space-between"
+                      height="100%"
+                    >
+                      <Box mb={4}>
+                        <Typography
+                          variant={isWidthUp("lg", width) ? "h3" : "h4"}
+                        >
+                          konzovibez.biz
+                        </Typography>
+                      </Box>
+                      <div>
+                        <Grid item md={6}>
+                          <ZoomImage
+                            style={{ marginBottom: "10px" }}
+                            src={`${process.env.PUBLIC_URL}/images/konzovibez.png`}
+                            className={classes.image}
+                            alt="header example"
+                          />
+                        </Grid>
+                        <Box mb={2}>
+                          <Typography
+                            variant={isWidthUp("lg", width) ? "h6" : "body1"}
+                            color="textSecondary"
+                          >
+                            Konzovibez.biz is the number one leading music
+                            website in kasese and western region Uganda, it was
+                            build with Javascripts, Firebase, redux and react.
+                          </Typography>
+                        </Box>
+                        <a
+                          href="https://www.konzovibez.biz/"
+                          target="blank"
+                          style={{ textDecoration: "none" }}
+                        >
+                          <Button
+                            variant="contained"
+                            color="secondary"
+                            fullWidth
+                            className={classes.extraLargeButton}
+                            classes={{ label: classes.extraLargeButtonLabel }}
+                          >
+                            Explore Site
+                          </Button>
+                        </a>
+                      </div>
+                    </Box>
+                  </Grid>
+                  <Hidden smDown>
+                    <Grid item md={6}>
+                      <ZoomImage
+                        src={`${process.env.PUBLIC_URL}/images/konzovibez.png`}
+                        className={classes.imageSmall}
+                        alt="header example"
+                      />
+                    </Grid>
+                  </Hidden>
+                </Box>
+              </div>
+            </Card>
+            <Card
+              className={classes.card}
+              data-aos-delay="200"
+              data-aos="zoom-in"
+              style={{ marginBottom: "50px" }}
+            >
+              <div className={classNames(classes.containerFix, "container")}>
+                <Box justifyContent="space-between" className="row">
+                  <Grid item xs={12} md={5}>
+                    <Box
+                      display="flex"
+                      flexDirection="column"
+                      justifyContent="space-between"
+                      height="100%"
+                    >
+                      <Box mb={4}>
+                        <Typography
+                          variant={isWidthUp("lg", width) ? "h3" : "h4"}
+                        >
+                          Jrmediastudio.com
+                        </Typography>
+                      </Box>
+                      <div>
+                        <Grid item md={6}>
+                          <ZoomImage
+                            style={{ marginBottom: "10px" }}
+                            src={`${process.env.PUBLIC_URL}/images/jrmedia.png`}
+                            className={classes.image}
+                            alt="header example"
+                          />
+                        </Grid>
+                        <Box mb={2}>
+                          <Typography
+                            variant={isWidthUp("lg", width) ? "h6" : "body1"}
+                            color="textSecondary"
+                          >
+                            Jrmediastudio.com is the best photo and video graphy
+                            in uganda located in Fort portal and bundibugyo.
+                            built with java scripts and react js
+                          </Typography>
+                        </Box>
+                        <a
+                          href="http://jrmediastudio.netlify.app/"
+                          target="/blank"
+                          style={{ textDecoration: "none" }}
+                        >
+                          <Button
+                            variant="contained"
+                            color="secondary"
+                            fullWidth
+                            className={classes.extraLargeButton}
+                            classes={{ label: classes.extraLargeButtonLabel }}
+                          >
+                            Explore Site
+                          </Button>
+                        </a>
+                      </div>
+                    </Box>
+                  </Grid>
+                  <Hidden smDown>
+                    <Grid item md={6}>
+                      <ZoomImage
+                        src={`${process.env.PUBLIC_URL}/images/jrmedia.png`}
+                        className={classes.imageSmall}
+                        alt="header example"
+                      />
+                    </Grid>
+                  </Hidden>
+                </Box>
+              </div>
+            </Card>
             <Card
               className={classes.card}
               data-aos-delay="200"

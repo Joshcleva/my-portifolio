@@ -16,7 +16,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import HomeIcon from "@material-ui/icons/Home";
 import { MdMonetizationOn } from "react-icons/md";
 import { MdAccessibility } from "react-icons/md";
-import { GiNewspaper } from "react-icons/gi";
 import { FaAt } from "react-icons/fa";
 import { ImBlog } from "react-icons/im";
 import { GoGlobe } from "react-icons/go";
@@ -107,13 +106,7 @@ function NavBar(props) {
       name: "Blog",
       icon: <ImBlog style={{ fontSize: "1.5rem" }} className="text-white" />,
     },
-    {
-      link: "/news",
-      name: "News",
-      icon: (
-        <GiNewspaper style={{ fontSize: "1.5rem" }} className="text-white" />
-      ),
-    },
+  
     {
       link: "/contact",
       name: "Contact",
