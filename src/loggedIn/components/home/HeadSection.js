@@ -16,7 +16,7 @@ import WaveBorder from "../../../shared/components/WaveBorder";
 import ZoomImage from "../../../shared/components/ZoomImage";
 import { NavLink } from "react-router-dom";
 import { init } from "ityped";
-import './style.css';
+import "./style.css";
 import Helmet from "react-helmet";
 
 const styles = (theme) => ({
@@ -107,9 +107,7 @@ const styles = (theme) => ({
   waveBorder: {
     paddingTop: theme.spacing(4),
   },
-
 });
-
 
 function HeadSection(props) {
   const { classes, theme, width } = props;
@@ -156,7 +154,6 @@ function HeadSection(props) {
       strings: ["Company", "Organisation", "Business", "Personel"],
     });
   }, []);
-
 
   return (
     <Fragment>
@@ -228,9 +225,7 @@ function HeadSection(props) {
                             <span
                               ref={compRef}
                               style={{ color: "crimson", margin: "0px 5px" }}
-                            >
-                              mobile
-                            </span>
+                            ></span>
                             friendly website | App now at extremely cheap prices
                             and promote Your Company | Organisation | Business
                             across the Globe. If you're a
