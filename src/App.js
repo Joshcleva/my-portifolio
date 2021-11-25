@@ -5,7 +5,6 @@ import theme from "./theme";
 import GlobalStyles from "./GlobalStyles";
 import Pace from "./shared/components/Pace";
 import ReactGa from 'react-ga';
-import Helmet from "react-helmet";
 
 
 const LoggedOutComponent = lazy(() => import("./loggedIn/components/Main"));

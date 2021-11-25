@@ -530,8 +530,9 @@ function HeadSection(props) {
                             marketing and making money online.
                           </Typography>
                         </Box>
-                        <NavLink
-                          to="/construction"
+                        <a
+                          href="https://gleanassist.netlify.app/"
+                          target="/blank"
                           style={{ textDecoration: "none" }}
                         >
                           <Button
@@ -543,7 +544,7 @@ function HeadSection(props) {
                           >
                             Explore Site
                           </Button>
-                        </NavLink>
+                        </a>
                       </div>
                     </Box>
                   </Grid>
